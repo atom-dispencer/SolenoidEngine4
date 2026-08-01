@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32C092FCP6
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=20
+Version=3.1
+Released=2025-02-20 05:15:26
+Downloaded=2026-08-01 20:36:12
+3D=Y

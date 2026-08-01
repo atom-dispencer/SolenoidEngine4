@@ -648,7 +648,7 @@
         "uuid": "8f70d105-0009-40db-8e47-cace6f06f216"
       }
     ],
-    "used_designators": "",
+    "used_designators": "Q2-5,J5-16,D6-13,C1,C3-9,220u1-4,100n1-4,#PWR1,#PWR8,#PWR13-45,R6,R11-39,JP1-20,IC2-6",
     "variants": []
   },
   "sheets": [
@@ -671,6 +671,18 @@
     [
       "896e96b4-c651-4615-ba74-5107dc3955e0",
       "Solenoid 1"
+    ],
+    [
+      "5e7b7f5b-7602-483d-9622-47b5c34c6ce4",
+      "Solenoid 2"
+    ],
+    [
+      "dcd1f385-6e3d-442d-bc05-0404acb533c3",
+      "Solenoid 3"
+    ],
+    [
+      "1e189177-1ffd-48bf-8381-80b2ae3aeecb",
+      "Solenoid 4"
     ]
   ],
   "text_variables": {},

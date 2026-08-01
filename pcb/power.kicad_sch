@@ -769,6 +769,17 @@
 		)
 		(uuid "d0b87a1f-8114-4ffe-8c92-81e7a82b9fce")
 	)
+	(hierarchical_label "SOL_PWR"
+		(shape input)
+		(at 114.3 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b66370b6-b5e5-493f-bb84-f48ccb4369e9")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 215.9 73.66 0)

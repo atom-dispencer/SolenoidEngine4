@@ -4,189 +4,58 @@
 	(generator_version "10.0")
 	(uuid "807b8f68-4253-41c6-908d-bdf8d9164513")
 	(paper "A4")
-	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
+	(lib_symbols)
 	(junction
-		(at 76.2 63.5)
+		(at 101.6 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "99613c6f-e0ae-4934-b1f4-f87a16100e21")
+		(uuid "260aba5a-68cf-42b1-afa9-adbae2730116")
 	)
 	(junction
-		(at 177.8 63.5)
+		(at 101.6 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b3147f87-d4a5-49af-89e5-9b740004148d")
+		(uuid "816f8e37-5118-41c5-9957-29627c39030b")
 	)
 	(junction
-		(at 127 63.5)
+		(at 101.6 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d9278801-63fe-469d-be49-b7c319b77b32")
+		(uuid "c3fa3c46-c4d1-4d82-b1c0-ff7ae729399c")
 	)
 	(wire
 		(pts
-			(xy 228.6 86.36) (xy 228.6 102.87)
+			(xy 88.9 130.81) (xy 114.3 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c4df0cc-1692-4f95-a9aa-95e649dc4692")
+		(uuid "1b2f7a04-9414-4ed4-887a-79aab55d6399")
 	)
 	(wire
 		(pts
-			(xy 127 78.74) (xy 127 63.5)
+			(xy 101.6 46.99) (xy 114.3 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25fc697e-5d7d-45cc-a33f-d7fe20f83487")
+		(uuid "2959dd98-b81d-494a-9e51-62f13cd65a4c")
 	)
 	(wire
 		(pts
-			(xy 63.5 63.5) (xy 76.2 63.5)
+			(xy 101.6 123.19) (xy 101.6 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0a7e37-a467-4886-8963-b10be8114df6")
+	)
+	(wire
+		(pts
+			(xy 88.9 38.1) (xy 101.6 38.1)
 		)
 		(stroke
 			(width 0)
@@ -196,97 +65,119 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 86.36) (xy 177.8 102.87)
+			(xy 101.6 46.99) (xy 101.6 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3cc8a7e9-60ba-4eb5-87b8-190d62eb9756")
+		(uuid "3c7cb03f-fe0d-40e6-ad34-d7fd87613e67")
 	)
 	(wire
 		(pts
-			(xy 127 63.5) (xy 76.2 63.5)
+			(xy 101.6 85.09) (xy 101.6 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "417408e4-01ef-4328-8a6c-9beab05346dd")
+		(uuid "68b4ceed-a859-4d43-9d59-9d5d24c6184e")
 	)
 	(wire
 		(pts
-			(xy 76.2 63.5) (xy 76.2 78.74)
+			(xy 114.3 123.19) (xy 101.6 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f450218-52cb-4c09-b2e1-6a9aa330e5e6")
+		(uuid "854f36dd-a086-4bc8-b143-5eaf7b470abb")
 	)
 	(wire
 		(pts
-			(xy 177.8 63.5) (xy 127 63.5)
+			(xy 88.9 54.61) (xy 114.3 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57ef2ffe-097d-4415-9da5-d5ae74285bda")
+		(uuid "8e433ce3-8113-42df-9a3d-a549528f39b3")
 	)
 	(wire
 		(pts
-			(xy 177.8 78.74) (xy 177.8 63.5)
+			(xy 88.9 168.91) (xy 114.3 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bf34cb2-99a1-4e4b-bbb4-f046333a1c8a")
+		(uuid "b02fde8f-dc21-4274-b241-be33a5d8dda2")
 	)
 	(wire
 		(pts
-			(xy 127 86.36) (xy 127 102.87)
+			(xy 101.6 85.09) (xy 114.3 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89413376-b692-4b50-85d4-b6b0d2e6c9cc")
+		(uuid "df58934c-0caa-4df3-966d-110656e5fce1")
 	)
 	(wire
 		(pts
-			(xy 228.6 63.5) (xy 177.8 63.5)
+			(xy 101.6 161.29) (xy 114.3 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa413dec-ab57-489d-9cb9-96261b8a97bd")
+		(uuid "e372846e-3a63-4860-90b1-cea44651782a")
 	)
 	(wire
 		(pts
-			(xy 228.6 78.74) (xy 228.6 63.5)
+			(xy 101.6 38.1) (xy 101.6 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db17bee9-b802-492b-8af3-974bf3f9ec95")
+		(uuid "ea844c0f-90ed-47c7-8080-c6044ca342d7")
 	)
 	(wire
 		(pts
-			(xy 76.2 86.36) (xy 76.2 102.87)
+			(xy 88.9 92.71) (xy 114.3 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de442867-8318-4800-a48e-4822a48f3c69")
+		(uuid "fcf41a06-ec3a-47a4-8492-8060a7803285")
+	)
+	(hierarchical_label "SOL_EN_3"
+		(shape input)
+		(at 88.9 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0386875e-39ca-4466-ba82-e0a5b4d343e8")
+	)
+	(hierarchical_label "SOL_EN_4"
+		(shape input)
+		(at 88.9 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "579e4576-174c-4185-adf8-806d2c568ebf")
 	)
 	(hierarchical_label "SOL_PWR"
 		(shape input)
-		(at 63.5 63.5 180)
+		(at 88.9 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -295,255 +186,31 @@
 		)
 		(uuid "c5158177-141e-458d-919b-565059d62147")
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32b44f03-cff8-4e6e-a626-4bd5c8d22b69")
-		(property "Reference" "R3"
-			(at 180.34 81.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	(hierarchical_label "SOL_EN_1"
+		(shape input)
+		(at 88.9 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "6"
-			(at 180.34 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.022 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d47b9d6-0e4f-4b34-b405-d9958ff7752f")
-		)
-		(pin "2"
-			(uuid "c124ffbe-be8e-48cb-949c-6c43616f1397")
-		)
-		(instances
-			(project "SolenoidEngine4"
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "df15bb6c-79a8-42f7-a6ac-1914f0c0ffe0")
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 127 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96643e9b-f07c-4e25-8561-a830cf4eadff")
-		(property "Reference" "R2"
-			(at 129.54 81.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	(hierarchical_label "SOL_EN_2"
+		(shape input)
+		(at 88.9 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "6"
-			(at 129.54 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.222 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 127 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7df0d585-d113-44f0-9034-215d8cf17cd3")
-		)
-		(pin "2"
-			(uuid "6e87e971-91be-425f-8ce4-2df92c5f0505")
-		)
-		(instances
-			(project "SolenoidEngine4"
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 228.6 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8daa1be-7de2-4a56-92e4-6c650084176d")
-		(property "Reference" "R4"
-			(at 231.14 81.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6"
-			(at 231.14 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.822 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 228.6 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b64bd637-815d-4e2c-bc08-93459ab7c080")
-		)
-		(pin "2"
-			(uuid "ab287bf4-fac8-4c0c-af62-8aa3577b35da")
-		)
-		(instances
-			(project "SolenoidEngine4"
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "f6c7c709-f367-4564-9e88-cb3835ee4263")
 	)
 	(sheet
-		(at 43.18 87.63)
-		(size 21.59 24.13)
+		(at 114.3 152.4)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -554,11 +221,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 177 145 1)
 		)
-		(uuid "896e96b4-c651-4615-ba74-5107dc3955e0")
-		(property "Sheetname" "Solenoid 1"
-			(at 43.18 86.9184 0)
+		(uuid "1e189177-1ffd-48bf-8381-80b2ae3aeecb")
+		(property "Sheetname" "Solenoid 4"
+			(at 114.3 151.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -569,7 +236,7 @@
 			)
 		)
 		(property "Sheetfile" "solenoid_1.kicad_sch"
-			(at 43.18 112.3446 0)
+			(at 114.3 178.3846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -580,7 +247,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 43.18 87.63 0)
+			(at 114.3 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -590,10 +257,261 @@
 				)
 			)
 		)
+		(pin "SOL_PWR" input
+			(at 114.3 161.29 180)
+			(uuid "9080d840-013b-4581-bed9-cd921515f07b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOL_EN" input
+			(at 114.3 168.91 180)
+			(uuid "8bca638d-4824-4ae5-ac77-a5fe1a202ea1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SolenoidEngine4"
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 76.2)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 177 145 1)
+		)
+		(uuid "5e7b7f5b-7602-483d-9622-47b5c34c6ce4")
+		(property "Sheetname" "Solenoid 2"
+			(at 114.3 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solenoid_1.kicad_sch"
+			(at 114.3 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 114.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "SOL_PWR" input
+			(at 114.3 85.09 180)
+			(uuid "4684205a-c32a-41bd-84af-3fc3298faa83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOL_EN" input
+			(at 114.3 92.71 180)
+			(uuid "1081b4bc-e7f4-4fdc-a904-ea783cdeb03a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SolenoidEngine4"
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 38.1)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 177 145 1)
+		)
+		(uuid "896e96b4-c651-4615-ba74-5107dc3955e0")
+		(property "Sheetname" "Solenoid 1"
+			(at 114.3 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solenoid_1.kicad_sch"
+			(at 114.3 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 114.3 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "SOL_PWR" input
+			(at 114.3 46.99 180)
+			(uuid "29d1dd04-98d7-44bc-b58c-c8a48f333845")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOL_EN" input
+			(at 114.3 54.61 180)
+			(uuid "87e19b9a-8712-48a0-82d6-0f85fa13a8a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 114.3)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 177 145 1)
+		)
+		(uuid "dcd1f385-6e3d-442d-bc05-0404acb533c3")
+		(property "Sheetname" "Solenoid 3"
+			(at 114.3 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solenoid_1.kicad_sch"
+			(at 114.3 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 114.3 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "SOL_PWR" input
+			(at 114.3 123.19 180)
+			(uuid "279188bd-1a32-46f3-a665-251e01fdbf9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOL_EN" input
+			(at 114.3 130.81 180)
+			(uuid "a9dbfdf0-afa3-4094-b2ec-5bd62da9c8fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SolenoidEngine4"
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847"
+					(page "7")
 				)
 			)
 		)

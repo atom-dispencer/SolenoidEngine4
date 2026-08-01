@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "STM32C092FCP6"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-07-13-07:02:59)
+    (mountForm default
+        (footprintRef "SOP65P640X120-20N")
+        (spec "System")
+    )
+)

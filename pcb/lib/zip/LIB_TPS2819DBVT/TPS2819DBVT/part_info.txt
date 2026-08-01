@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS2819DBVT
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=1.2
+Released=2020-02-26 12:25:01
+Downloaded=2026-08-01 10:53:40
+3D=Y

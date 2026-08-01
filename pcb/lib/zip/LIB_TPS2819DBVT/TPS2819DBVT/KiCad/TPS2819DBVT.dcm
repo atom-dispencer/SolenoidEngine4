@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS2819DBVT
+D Texas Instruments TPS2819DBVT, MOSFET Power Driver 2A, 4  14 V, Non-Inverting, 5-Pin SOT-23
+K
+F http://www.ti.com/lit/gpn/TPS2819
+$ENDCMP
+#
+#End Doc Library

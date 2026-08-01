@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CSD18542KCS"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-01-11:57:38)
+    (mountForm default
+        (footprintRef "TO254P470X1016X2016-3P")
+        (spec "System")
+    )
+)

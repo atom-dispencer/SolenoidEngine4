@@ -7,11 +7,18 @@
 #include <assert.h>
 
 #include "SolenoidEngine4.h"
+#include "MA730.h"
+#include "stm32c0xx_hal_adc_ex.h"
+
+static enum MA730_Error resolver_spi_xmit(uint16_t* payload);
+static enum MA730_Error resolver_spi_recv(uint16_t* payload);
+
+static struct MA730_Driver RESOLVER = { 0 };
+static volatile uint32_t THROTTLE_ADC_RAW = 0;
 
 //
-// Solenoid Control
+// SOLENOID CONTROL
 //
-
 
 void energise_solenoid(enum Solenoid s, bool energised)
 {
@@ -58,7 +65,7 @@ void energise_all_solenoids(bool energised)
 }
 
 //
-// Global state
+// GLOBAL STATE 
 //
 
 struct Handles
@@ -79,6 +86,40 @@ struct SolenoidEngine4
 
 struct SolenoidEngine4 SE4 = { 0 };
 
+//
+// RESOLVER SPI CONNECTIONS
+//
+
+static enum MA730_Error resolver_spi_xmit(uint16_t* payload)
+{
+    if (NULL == payload) return MA730_NULL;
+    if (NULL == SE4.handles.h_resolver) return MA730_NULL;
+
+    HAL_StatusTypeDef hal_err = HAL_SPI_Transmit(SE4.handles.h_resolver, (uint8_t*) payload, 1, HAL_MAX_DELAY);
+    if (HAL_OK != hal_err) return MA730_BAD_RANGE;
+
+    return MA730_OK;
+}
+
+static enum MA730_Error resolver_spi_recv(uint16_t* payload)
+{
+    if (NULL == payload) return MA730_NULL;
+    if (NULL == SE4.handles.h_resolver) return MA730_NULL;
+
+    uint16_t tx_word = 0;
+    HAL_StatusTypeDef hal_err = HAL_SPI_TransmitReceive(SE4.handles.h_resolver, (uint8_t*) &tx_word, (uint8_t*) payload, 1, HAL_MAX_DELAY);
+    if (HAL_OK != hal_err) return MA730_BAD_RANGE;
+
+    return MA730_OK;
+}
+
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
+{
+    if (hadc != SE4.handles.h_eng_throttle) return;
+
+    THROTTLE_ADC_RAW = HAL_ADC_GetValue(hadc);
+}
+
 
 //
 // CONFIGURATION
@@ -91,11 +132,11 @@ void configure_engine()
     energise_solenoid(SOLENOID_3, false);
     energise_solenoid(SOLENOID_4, false);
 
-    // TODO How does ADC calibration work on STM32 C0?
-    // HAL_ADC_StartCalibration(SE4.handles.h_eng_throttle);
-    HAL_ADC_Start_IT(SE4.handles.h_eng_throttle);
+    ma730_init(&RESOLVER, resolver_spi_xmit, resolver_spi_recv);
 
+    HAL_ADCEx_Calibration_Start(SE4.handles.h_eng_throttle);
     HAL_Delay(1);
+    HAL_ADC_Start_IT(SE4.handles.h_eng_throttle);
 }
 
 //
@@ -147,7 +188,11 @@ void calibrate_engine()
 
 void tick_engine()
 {
-    
+    // TODO read crank angle from resolver
+    // TODO energise solenoids based on crank angle 
+
+    // TODO read throttle fraction from ADC
+    // TODO set PWM duty cycle based on throttle fraction
 }
 
 //

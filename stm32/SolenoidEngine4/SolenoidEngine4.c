@@ -1,50 +1,24 @@
 #include "main.h"
+#include "stm32c092xx.h"
+#include "stm32c0xx_hal.h"
+#include "stm32c0xx_hal_adc.h"
 
 #include <stdbool.h>
 #include <assert.h>
+
+#include "SolenoidEngine4.h"
 
 //
 // Solenoid Control
 //
 
-enum Solenoid
-{
-    SOLENOID_1,
-    SOLENOID_2,
-    SOLENOID_3,
-    SOLENOID_4,
-    //
-    SOLENOID_COUNT
-}:
-
-const enum Solenoid SOLENOIDS[SOLENOID_COUNT] =
-{
-    SOLENOID_1,
-    SOLENOID_2,
-    SOLENOID_3,
-    SOLENOID_4
-};
-
-void is_valid_solenoid(enum Solenoid s)
-{
-    switch(s)
-    {
-        case SOLENOID_1:
-        case SOLENOID_2:
-        case SOLENOID_3:
-        case SOLENOID_4:
-            return true;
-        default:
-            return false;
-    }
-}
 
 void energise_solenoid(enum Solenoid s, bool energised)
 {
     assert("Invalid Solenoid" && is_valid_solenoid(s));
 
-    int port;
-    int pin;
+    GPIO_TypeDef* port;
+    uint16_t pin;
 
     switch(s)
     {
@@ -64,6 +38,10 @@ void energise_solenoid(enum Solenoid s, bool energised)
             port = SOL_EN_4_GPIO_Port;
             pin = SOL_EN_4_Pin;
             break;
+        //
+        case SOLENOID_COUNT:
+        default:
+            assert("Bad SOLENOID enum" && false);
     }
 
     GPIO_PinState state = energised ? GPIO_PIN_SET : GPIO_PIN_RESET;
@@ -113,7 +91,9 @@ void configure_engine()
     energise_solenoid(SOLENOID_3, false);
     energise_solenoid(SOLENOID_4, false);
 
-    HAL_ADC_StartCalibration(SE4.handles.h_eng_throttle);
+    // TODO How does ADC calibration work on STM32 C0?
+    // HAL_ADC_StartCalibration(SE4.handles.h_eng_throttle);
+    HAL_ADC_Start_IT(SE4.handles.h_eng_throttle);
 
     HAL_Delay(1);
 }
@@ -138,9 +118,16 @@ void calibrate_engine()
         enum Solenoid s = SOLENOIDS[i % SOLENOID_COUNT];
         energise_solenoid(s, true);
 
-        //
-        // TODO read calibration value from resolver
-        //
+        for (int j = 0; j < repeats; j++)
+        {
+            float cal = 0;
+            //
+            // TODO read calibration value from resolver
+            //
+            SE4.calibration[i] += cal;
+        }
+
+        HAL_Delay(500);
     }
 
     //
@@ -160,7 +147,7 @@ void calibrate_engine()
 
 void tick_engine()
 {
-
+    
 }
 
 //
@@ -168,8 +155,8 @@ void tick_engine()
 //
 
 void main_SolenoidEngine4(
-    ADC_HandleTypeDef *h_eng_throttle,
-    SPI_HandleTypeDef *h_resolver
+  ADC_HandleTypeDef *h_eng_throttle,
+  SPI_HandleTypeDef *h_resolver
 )
 {
     SE4.handles.h_eng_throttle = h_eng_throttle;

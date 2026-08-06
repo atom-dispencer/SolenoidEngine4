@@ -27,6 +27,36 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 63.5) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232e0a2e-a66e-47f4-bd42-7c94540543e0")
+	)
+	(wire
+		(pts
+			(xy 190.5 57.15) (xy 215.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3815ca75-e80a-4ac0-938a-a2fe3ae146d5")
+	)
+	(wire
+		(pts
+			(xy 190.5 91.44) (xy 215.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43681d27-515e-455a-9a5e-907d13272af0")
+	)
+	(wire
+		(pts
 			(xy 114.3 88.9) (xy 114.3 63.5)
 		)
 		(stroke
@@ -37,6 +67,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 88.9) (xy 215.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9705854b-f999-4153-9590-0c4d42e26955")
+	)
+	(wire
+		(pts
 			(xy 101.6 105.41) (xy 152.4 105.41)
 		)
 		(stroke
@@ -44,6 +84,16 @@
 			(type default)
 		)
 		(uuid "a9ec06af-9a25-46ea-8b83-b8b705cda597")
+	)
+	(wire
+		(pts
+			(xy 139.7 88.9) (xy 152.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b601fa-c350-42e3-afba-25dbef563a70")
 	)
 	(wire
 		(pts
@@ -64,6 +114,113 @@
 			(type default)
 		)
 		(uuid "e91d6242-aadb-4f90-8744-95b503f3b49e")
+	)
+	(wire
+		(pts
+			(xy 190.5 86.36) (xy 215.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f424f880-8af9-4f63-b6fa-18a1447eb048")
+	)
+	(sheet
+		(at 215.9 50.8)
+		(size 25.4 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 166 246 255 1)
+		)
+		(uuid "0f3a443d-d2b6-4eba-9bb3-de7213a95505")
+		(property "Sheetname" "Programmer"
+			(at 215.9 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "programmer.kicad_sch"
+			(at 215.9 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 215.9 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "SWDIO" input
+			(at 215.9 86.36 180)
+			(uuid "f5eb17ac-bbe9-4530-829c-38d773a368b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" input
+			(at 215.9 88.9 180)
+			(uuid "bd1f7826-b15b-412b-8af8-acb035ae4d8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRST" input
+			(at 215.9 91.44 180)
+			(uuid "997e0e1e-d13a-407e-a9d7-bfbad645d3c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STLINK_3V3" input
+			(at 215.9 57.15 180)
+			(uuid "2d5da687-f511-457a-a8e5-b4c601ba8434")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SolenoidEngine4"
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216"
+					(page "9")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 152.4 76.2)
@@ -155,6 +312,46 @@
 				(justify left)
 			)
 		)
+		(pin "SOL_PWM" input
+			(at 152.4 88.9 180)
+			(uuid "0b7e7e85-f67c-440b-9b5e-91687c6aee12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" input
+			(at 190.5 88.9 0)
+			(uuid "f5c90ebb-8ab8-4175-8d58-90527573421e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" input
+			(at 190.5 86.36 0)
+			(uuid "a5106b06-7b9a-42e3-bf86-4e2be5bd290a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NRST" input
+			(at 190.5 91.44 0)
+			(uuid "015506d9-7608-4e80-a4a9-60a206db881f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216"
@@ -210,6 +407,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "SOL_PWM" input
+			(at 139.7 63.5 270)
+			(uuid "b337c207-3676-47a0-a0c2-c746a0b1e3f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STLINK_3V3" input
+			(at 190.5 57.15 0)
+			(uuid "13a75cce-45f7-4408-8bd5-3e3b74434462")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

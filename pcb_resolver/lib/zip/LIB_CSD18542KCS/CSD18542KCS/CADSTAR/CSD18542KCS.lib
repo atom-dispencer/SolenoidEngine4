@@ -1,0 +1,16 @@
+.CSD18542KCS :1 ;CSD18542KCS 60-V N-Channel NexFET&#153; Power MOSFET
+TO254P470X1016X2016-3P
+*STM Q
+*NGS
+*PLB 1="G" 2="D" 3="S"
+*MXP 3
+*DFN CSD18542KCS
+~!Mouser Part Number (595-CSD18542KCS)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD18542KCS?qs=sICFeol8QWE7Rbjncdrc5g%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (CSD18542KCS)
+~!Link Datasheet (http://www.ti.com/lit/gpn/csd18542kcs)
+~!Height (4.7mm)
+~!3D_Model (CSD18542KCS)
+CSD18542KCS
+1.1!U 2.1!U 3.1!U 

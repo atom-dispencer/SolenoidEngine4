@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS2819DBVT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS2819DBVT" (!) = "", "SOT95P280X145-5N", "SOT23 (5-Pin)", "595-TPS2819DBVT", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2819DBVT/?qs=zwk82MlA57YGnSOBxjQpBw%3D%3D", "Texas Instruments TPS2819DBVT, MOSFET Power Driver 2A, 4  14 V, Non-Inverting, 5-Pin SOT-23", "http://www.ti.com/lit/gpn/TPS2819", "1.45 mm"
+END_PART
+
+END.

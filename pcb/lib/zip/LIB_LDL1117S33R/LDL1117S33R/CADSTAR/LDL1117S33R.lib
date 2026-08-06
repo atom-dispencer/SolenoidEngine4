@@ -1,0 +1,16 @@
+.LDL1117S33R :1 ;STMICROELECTRONICS - LDL1117S33R - LDO, FIXED, 3.3V, 1.2A, SOT-223-3
+SOT230P700X180-4N
+*STM IC
+*NGS
+*PLB 1="GND" 2="VOUT_1" 3="VIN" 4="VOUT_2"
+*MXP 4
+*DFN LDL1117S33R
+~!Mouser Part Number (511-LDL1117S33R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LDL1117S33R?qs=AQlKX63v8Rt9Bf6AWSrbFg%3D%3D)
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (LDL1117S33R)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/ldl1117.pdf)
+~!Height (1.8mm)
+~!3D_Model (LDL1117S33R)
+LDL1117S33R
+1.1!G 2.1!Y 3.1!I 4.1!Y 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CSD18542KCS
+D CSD18542KCS 60-V N-Channel NexFET&#153; Power MOSFET
+K
+F http://www.ti.com/lit/gpn/csd18542kcs
+$ENDCMP
+#
+#End Doc Library

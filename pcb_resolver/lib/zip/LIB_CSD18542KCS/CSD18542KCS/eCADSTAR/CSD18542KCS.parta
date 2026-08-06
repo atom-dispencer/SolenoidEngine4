@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_723869"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-05-01-09:39:50)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "CSD18542KCS")
+)
+
+
+(pinAssign "ECS_723869"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-05-01-09:39:50)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_723869")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "CSD18542KCS")
+)
+
+
+(part "CSD18542KCS"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-05-01-09:39:50)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "CSD18542KCS")
+    (pinAssignRef "ECS_723869")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "CSD18542KCS 60-V N-Channel NexFET&#153; Power MOSFET")
+    (property "Mouser_Part_Number" "595-CSD18542KCS")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD18542KCS?qs=sICFeol8QWE7Rbjncdrc5g%3D%3D")
+    (property "Manufacturer_Name" "Texas Instruments")
+    (property "Manufacturer_Part_Number" "CSD18542KCS")
+    (property "Datasheet_Link" "http://www.ti.com/lit/gpn/csd18542kcs")
+    (property "compAreaTopHeight" 4.7)
+)
+
+

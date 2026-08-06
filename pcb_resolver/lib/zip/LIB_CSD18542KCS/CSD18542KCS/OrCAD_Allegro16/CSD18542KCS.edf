@@ -1,0 +1,208 @@
+
+(EDIF
+  (rename &CSD18542KCS "CSD18542KCS")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2026 08 01 10 11 50)
+      (dataOrigin "723869/1506577/2.50/3/3/MOSFET (N-Channel)")
+      (program "SamacSys ECAD Model CSD18542KCS"
+        (version "1.1"))))
+  (library
+  (rename &CSD18542KCS "CSD18542KCS")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &CSD18542KCS "CSD18542KCS")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "Q")
+          (property (rename PACKAGENAME "PackageName") (string "CSD18542KCS"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "TO254P470X1016X2016-3P"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "595-CSD18542KCS"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD18542KCS?qs=sICFeol8QWE7Rbjncdrc5g%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Texas Instruments"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "CSD18542KCS"))
+          (property (rename &Description "Description") (string "CSD18542KCS 60-V N-Channel NexFET&#153; Power MOSFET"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "http://www.ti.com/lit/gpn/csd18542kcs"))
+          (property (rename &Height "Height") (string "4.7 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "CSD18542KCS"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &G "G")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &D "D")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &S "S")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &G)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -100 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -100 -300))))
+            )
+            (portImplementation
+              (name &D)
+              (figure PIN (path (pointList (pt 200 100) (pt 200 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 100))))
+            )
+            (portImplementation
+              (name &S)
+              (figure PIN (path (pointList (pt 200 -500) (pt 200 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 -500))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -200)
+                  (pt 200 -400)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -100)
+                  (pt 200 0)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 -300)
+                  (pt 100 -300)
+                  (pt 100 -100)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -200)
+                  (pt 130 -200)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -100)
+                  (pt 130 -100)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -300)
+                  (pt 200 -300)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -80)
+                  (pt 130 -120)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -320)
+                  (pt 130 -280)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -220)
+                  (pt 130 -180)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (circle
+                (pt 0 -200)
+                (pt 300 -200)
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 130 -200)
+                  (pt 170 -180)
+                  (pt 170 -220)
+                  (pt 130 -200)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 350 -220))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 350 -320))))
+          )
+        )
+      )
+    )
+  )
+)

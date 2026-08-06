@@ -1,0 +1,16 @@
+.TPS2819DBVT :1 ;Texas Instruments TPS2819DBVT, MOSFET Power Driver 2A, 4  14 V, Non-Inverting, 5-Pin SOT-23
+SOT95P280X145-5N
+*STM IC
+*NGS
+*PLB 1="VDD" 2="GND" 3="IN" 4="OUT" 5="VCC"
+*MXP 5
+*DFN TPS2819DBVT
+~!Mouser Part Number (595-TPS2819DBVT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2819DBVT/?qs=zwk82MlA57YGnSOBxjQpBw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS2819DBVT)
+~!Link Datasheet (http://www.ti.com/lit/gpn/TPS2819)
+~!Height (1.45mm)
+~!3D_Model (TPS2819DBVT)
+TPS2819DBVT
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

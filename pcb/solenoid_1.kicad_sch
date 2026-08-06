@@ -1932,10 +1932,22 @@
 		(uuid "3a4b742c-91c0-469e-9895-5c20e9101186")
 	)
 	(junction
+		(at 209.55 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43fe27f3-b616-407c-b6fc-015631ca73a4")
+	)
+	(junction
 		(at 85.09 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54039fde-c7d1-496b-b23f-e323ecf67240")
+	)
+	(junction
+		(at 209.55 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8adceec8-eb45-4129-810a-82b5db88528f")
 	)
 	(junction
 		(at 247.65 63.5)
@@ -1956,12 +1968,6 @@
 		(uuid "976b59c4-2dca-44a8-970c-b2a9af111876")
 	)
 	(junction
-		(at 209.55 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1f47dd9-b8e6-4456-825c-d9b40e820953")
-	)
-	(junction
 		(at 44.45 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1978,12 +1984,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4033601-db7a-4940-97d9-c8bcefa56940")
-	)
-	(junction
-		(at 209.55 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fad6de0d-894d-4cf2-83e6-c6dfaa9d8cb0")
 	)
 	(wire
 		(pts
@@ -2004,6 +2004,16 @@
 			(type default)
 		)
 		(uuid "07a7827a-2b9e-46ce-a00d-82386e44ce72")
+	)
+	(wire
+		(pts
+			(xy 203.2 63.5) (xy 209.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088888c1-f323-426b-87e1-3bfde45f146f")
 	)
 	(wire
 		(pts
@@ -2034,6 +2044,16 @@
 			(type default)
 		)
 		(uuid "1320b454-47a7-423c-b92d-1d71b38abac9")
+	)
+	(wire
+		(pts
+			(xy 203.2 38.1) (xy 209.55 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "135c6a43-3f59-47c7-9bf9-1e32d8cd0ed0")
 	)
 	(wire
 		(pts
@@ -2287,16 +2307,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 69.85) (xy 209.55 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0766375-172c-4f77-ba65-eab9f1de0da5")
-	)
-	(wire
-		(pts
 			(xy 38.1 46.99) (xy 44.45 46.99)
 		)
 		(stroke
@@ -2324,16 +2334,6 @@
 			(type default)
 		)
 		(uuid "c1700f2b-da8b-4c77-868a-0b2d415bd01b")
-	)
-	(wire
-		(pts
-			(xy 209.55 31.75) (xy 209.55 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c220516d-689a-4a46-b348-2117925a6171")
 	)
 	(wire
 		(pts
@@ -2496,7 +2496,7 @@
 		(uuid "40b95481-1070-41cf-a558-adb5e9f11cbb")
 	)
 	(label "SOL-"
-		(at 209.55 69.85 90)
+		(at 203.2 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2506,12 +2506,12 @@
 		(uuid "55e59b71-7cc3-493d-91be-c021ba1a604a")
 	)
 	(label "SOL+"
-		(at 209.55 31.75 270)
+		(at 203.2 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "9a8f15e5-63d2-4c93-a104-5acde1bcb69a")
 	)
@@ -4656,26 +4656,26 @@
 	)
 	(group ""
 		(uuid "77daf5e4-081d-42e1-8863-60d5a09adff2")
-		(members "0738f25c-d48d-4e56-aced-f8d547b5b2ea" "20e58f6d-6192-45e7-97ce-fb4481d8fc9e"
-			"3a4b742c-91c0-469e-9895-5c20e9101186" "55e59b71-7cc3-493d-91be-c021ba1a604a"
-			"59ad495e-4d15-4ef3-b0c1-19c04054a3a2" "5e127bcf-d55c-486e-9636-9a97d75a5134"
-			"60056fe1-bfa2-402f-8ed1-ebacd9a6f4cb" "60a9d61a-6614-4ed5-a17b-eab4c3f55340"
-			"69f04b03-fef7-40a0-bc34-562216d6f3d2" "6a9973c5-a169-4b9b-8468-cce1f2198a9e"
-			"6c8be35e-de77-47b5-b36a-265b4a9aeba5" "6e7420fe-db0a-4c11-aef5-e94df4b19f74"
-			"6f40bdd6-8014-41d0-9dfb-017f2008049f" "7332bfd5-49de-4611-a2e0-9190bf6cc160"
-			"77fcb79d-9f2b-4782-a546-0d2f557ad044" "797699ea-2005-4498-8c55-54cd85aec307"
-			"824d1d3f-5680-4a9f-a2c7-13cd532a724a" "8f54b4c5-91fb-4425-a8bc-22a915c6d1de"
+		(members "0738f25c-d48d-4e56-aced-f8d547b5b2ea" "088888c1-f323-426b-87e1-3bfde45f146f"
+			"135c6a43-3f59-47c7-9bf9-1e32d8cd0ed0" "20e58f6d-6192-45e7-97ce-fb4481d8fc9e"
+			"3a4b742c-91c0-469e-9895-5c20e9101186" "43fe27f3-b616-407c-b6fc-015631ca73a4"
+			"55e59b71-7cc3-493d-91be-c021ba1a604a" "59ad495e-4d15-4ef3-b0c1-19c04054a3a2"
+			"5e127bcf-d55c-486e-9636-9a97d75a5134" "60056fe1-bfa2-402f-8ed1-ebacd9a6f4cb"
+			"60a9d61a-6614-4ed5-a17b-eab4c3f55340" "69f04b03-fef7-40a0-bc34-562216d6f3d2"
+			"6a9973c5-a169-4b9b-8468-cce1f2198a9e" "6c8be35e-de77-47b5-b36a-265b4a9aeba5"
+			"6e7420fe-db0a-4c11-aef5-e94df4b19f74" "6f40bdd6-8014-41d0-9dfb-017f2008049f"
+			"7332bfd5-49de-4611-a2e0-9190bf6cc160" "77fcb79d-9f2b-4782-a546-0d2f557ad044"
+			"797699ea-2005-4498-8c55-54cd85aec307" "824d1d3f-5680-4a9f-a2c7-13cd532a724a"
+			"8adceec8-eb45-4129-810a-82b5db88528f" "8f54b4c5-91fb-4425-a8bc-22a915c6d1de"
 			"8fb3c8d1-05e5-40eb-bcf4-0db929fd58de" "922b57c4-fa6a-42ce-81fc-37b9bda4baf6"
 			"928b7351-df22-4f10-99eb-9bffee07e496" "973a1369-d79e-4290-b29a-feb079b29811"
 			"976b59c4-2dca-44a8-970c-b2a9af111876" "9a8f15e5-63d2-4c93-a104-5acde1bcb69a"
 			"9bd98cd1-3b21-4366-8ca7-bcf3870ea888" "a0932be2-e51a-4513-8661-c447ff019249"
-			"a1f47dd9-b8e6-4456-825c-d9b40e820953" "b0766375-172c-4f77-ba65-eab9f1de0da5"
-			"c220516d-689a-4a46-b348-2117925a6171" "ce80e19a-343c-48bb-859e-f73e0246a150"
-			"d4772298-75d1-4576-89c2-ccb8e8d09734" "d53095e9-924a-4097-8a2d-14739efa4e66"
-			"d6935c49-fd08-4fed-b77d-e60bc0b901d5" "d72cdc89-df23-40da-86b4-38efcb345f0a"
-			"db111453-e8a8-4bf0-9642-30ab6dcc379e" "e4033601-db7a-4940-97d9-c8bcefa56940"
-			"e8a25e02-082b-4082-98f7-635cb0671171" "f3206449-68d5-47ca-8e29-6185f931a11b"
-			"faa0678a-11fa-43f5-ba29-04073390ac30" "fad6de0d-894d-4cf2-83e6-c6dfaa9d8cb0"
+			"ce80e19a-343c-48bb-859e-f73e0246a150" "d4772298-75d1-4576-89c2-ccb8e8d09734"
+			"d53095e9-924a-4097-8a2d-14739efa4e66" "d6935c49-fd08-4fed-b77d-e60bc0b901d5"
+			"d72cdc89-df23-40da-86b4-38efcb345f0a" "db111453-e8a8-4bf0-9642-30ab6dcc379e"
+			"e4033601-db7a-4940-97d9-c8bcefa56940" "e8a25e02-082b-4082-98f7-635cb0671171"
+			"f3206449-68d5-47ca-8e29-6185f931a11b" "faa0678a-11fa-43f5-ba29-04073390ac30"
 		)
 	)
 	(group ""

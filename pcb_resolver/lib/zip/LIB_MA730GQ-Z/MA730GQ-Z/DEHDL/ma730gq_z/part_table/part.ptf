@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MA730GQ_Z'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Monolithic Power Systems (MPS)", "MA730GQ-Z" (!) = "", "QFN50P300X300X100-17N-D", "Quad Flat No-Lead", "946-MA730GQ-Z", "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MA730GQ-Z?qs=YCa%2FAAYMW01z3klrRj76PA%3D%3D", "Board Mount Hall Effect / Magnetic Sensors 14-bit, digital, contactless angle sensor with ABZ incremental and PWM output", "https://www.monolithicpower.com/pub/media/document/m/a/ma730_r1.01.pdf", "1 mm"
+END_PART
+
+END.

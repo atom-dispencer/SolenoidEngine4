@@ -1,0 +1,9 @@
+Manufacturer=Monolithic Power Systems (MPS)
+PartNumber=MA730GQ-Z
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=17
+Version=1.1
+Released=2018-04-02 20:20:36
+Downloaded=2026-08-07 07:49:36
+3D=Y

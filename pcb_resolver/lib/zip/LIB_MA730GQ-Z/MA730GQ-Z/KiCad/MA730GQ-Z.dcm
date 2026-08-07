@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MA730GQ-Z
+D Board Mount Hall Effect / Magnetic Sensors 14-bit, digital, contactless angle sensor with ABZ incremental and PWM output
+K
+F https://www.monolithicpower.com/pub/media/document/m/a/ma730_r1.01.pdf
+$ENDCMP
+#
+#End Doc Library

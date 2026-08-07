@@ -1,36 +1,59 @@
 #ifndef GUARD_SOLENOIDENGINE4
 #define GUARD_SOLENOIDENGINE4
 
-enum Solenoid
+struct Handles
 {
-    SOLENOID_1,
-    SOLENOID_2,
-    SOLENOID_3,
-    SOLENOID_4,
-    //
-    SOLENOID_COUNT
+    ADC_HandleTypeDef *h_eng_throttle;
+    SPI_HandleTypeDef *h_resolver;
+    TIM_HandleTypeDef *h_pwm;
+    TIM_HandleTypeDef *h_1ms;
 };
 
-static const enum Solenoid SOLENOIDS[SOLENOID_COUNT] =
+struct SolenoidEngine4
 {
-    SOLENOID_1,
-    SOLENOID_2,
-    SOLENOID_3,
-    SOLENOID_4
+    struct Handles handles;
+
+    float crank_radians;
+    float throttle_fraction;
+
+    float calibration[SOLENOID_COUNT];
 };
 
-static const bool is_valid_solenoid(enum Solenoid s)
+static struct Solenoid 
 {
-    switch(s)
+    float expected_calibration;
+    GPIO_TypeDef* gpio_port;
+    uint16_t gpio_pin;
+};
+
+const static struct SOLENOIDS[] = 
+{
     {
-        case SOLENOID_1:
-        case SOLENOID_2:
-        case SOLENOID_3:
-        case SOLENOID_4:
-            return true;
-        default:
-            return false;
+        .gpio_port = SOL_EN_1_GPIO_Port,
+        .gpio_pin = SOL_EN_1_Pin
+    },
+    {
+        .gpio_port = SOL_EN_2_GPIO_Port,
+        .gpio_pin = SOL_EN_2_Pin
+    },
+    {
+        .gpio_port = SOL_EN_3_GPIO_Port,
+        .gpio_pin = SOL_EN_3_Pin
+    },
+    {
+        .gpio_port = SOL_EN_4_GPIO_Port,
+        .gpio_pin = SOL_EN_4_Pin
     }
-}
+};
+
+enum Spin
+{
+    SPIN_POSITIVE,
+    SPIN_NONE,
+    SPIN_NEGATIVE
+};
+
+#define SOLENOID_COUNT (sizeof(SOLENOIDS) / sizeof(struct Solenoid))
+#define IS_VALID_SOLENOID_INDEX(idx) ( (unsigned int)(idx) < SOLENOID_COUNT )
 
 #endif

@@ -69,7 +69,9 @@ static void MX_TIM17_Init(void);
 
 void main_SolenoidEngine4(
   ADC_HandleTypeDef *h_eng_throttle,
-  SPI_HandleTypeDef *h_resolver
+  SPI_HandleTypeDef *h_resolver,
+  TIM_HandleTypeDef *h_pwm,
+  TIM_HandleTypeDef *h_1ms
 );
 
 /* USER CODE END 0 */
@@ -110,7 +112,7 @@ int main(void)
   MX_TIM17_Init();
   /* USER CODE BEGIN 2 */
 
-  main_SolenoidEngine4(&hadc1, &hspi1);
+  main_SolenoidEngine4(&hadc1, &hspi1, &htim16, &htim17);
 
   /* USER CODE END 2 */
 

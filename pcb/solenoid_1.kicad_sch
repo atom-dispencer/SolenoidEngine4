@@ -3557,7 +3557,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77fcb79d-9f2b-4782-a546-0d2f557ad044")
-		(property "Reference" "220u"
+		(property "Reference" "220u5"
 			(at 218.44 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3639,7 +3639,7 @@
 					(unit 1)
 				)
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/896e96b4-c651-4615-ba74-5107dc3955e0"
-					(reference "220u")
+					(reference "220u5")
 					(unit 1)
 				)
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/dcd1f385-6e3d-442d-bc05-0404acb533c3"
@@ -4403,7 +4403,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6935c49-fd08-4fed-b77d-e60bc0b901d5")
-		(property "Reference" "100n"
+		(property "Reference" "100n5"
 			(at 231.14 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4485,7 +4485,7 @@
 					(unit 1)
 				)
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/896e96b4-c651-4615-ba74-5107dc3955e0"
-					(reference "100n")
+					(reference "100n5")
 					(unit 1)
 				)
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/dcd1f385-6e3d-442d-bc05-0404acb533c3"

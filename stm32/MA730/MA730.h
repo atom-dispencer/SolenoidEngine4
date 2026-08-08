@@ -153,6 +153,8 @@ enum MA730_Error ma730_init(struct MA730_Driver* blank_driver,
     enum MA730_Error (*spi_recv)(uint16_t* payload)
 );
 
+enum MA730_Error ma730_read_angle(struct MA730_Driver* drv, float* angle);
+
 enum MA730_Error ma730_write_zero_deg(struct MA730_Driver* drv, float zero_deg);
 enum MA730_Error ma730_read_zero_deg(struct MA730_Driver* drv, float* zero_deg);
 

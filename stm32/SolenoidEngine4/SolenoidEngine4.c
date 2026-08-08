@@ -15,24 +15,25 @@ static enum MA730_Error resolver_spi_recv(uint16_t* payload);
 
 static struct MA730_Driver RESOLVER = { 0 };
 static volatile uint32_t THROTTLE_ADC_RAW = 0;
+static volatile bool READY_FOR_TICK = false;
 
 //
 // SOLENOID CONTROL
 //
 
-void energise_solenoid(struct Solenoid* sol, bool energised)
+void energise_solenoid(const struct Solenoid* sol, bool energised)
 {
     assert("NULL Solenoid" && (NULL != sol));
 
     GPIO_PinState state = energised ? GPIO_PIN_SET : GPIO_PIN_RESET;
-    HAL_GPIO_WritePin(sol.gpio_port, sol.gpio_pin, state);
+    HAL_GPIO_WritePin(sol->gpio_port, sol->gpio_pin, state);
 }
 
 void energise_all_solenoids(bool energised)
 {
     for (int i = 0; i < SOLENOID_COUNT; i++)
     {
-        struct Solenoid* s = &SOLENOIDS[i];
+        const struct Solenoid* s = &SOLENOIDS[i];
         energise_solenoid(s, energised);
     }
 }
@@ -52,6 +53,7 @@ static enum MA730_Error resolver_spi_xmit(uint16_t* payload)
     if (NULL == payload) return MA730_NULL;
     if (NULL == SE4.handles.h_resolver) return MA730_NULL;
 
+    // SPI is configured for 16-bit Motorola frames @ 24MHz, MSB first
     HAL_StatusTypeDef hal_err = HAL_SPI_Transmit(SE4.handles.h_resolver, (uint8_t*) payload, 1, HAL_MAX_DELAY);
     if (HAL_OK != hal_err) return MA730_BAD_RANGE;
 
@@ -63,6 +65,7 @@ static enum MA730_Error resolver_spi_recv(uint16_t* payload)
     if (NULL == payload) return MA730_NULL;
     if (NULL == SE4.handles.h_resolver) return MA730_NULL;
 
+    // SPI is configured for 16-bit Motorola frames @ 24MHz, MSB first
     uint16_t tx_word = 0;
     HAL_StatusTypeDef hal_err = HAL_SPI_TransmitReceive(SE4.handles.h_resolver, (uint8_t*) &tx_word, (uint8_t*) payload, 1, HAL_MAX_DELAY);
     if (HAL_OK != hal_err) return MA730_BAD_RANGE;
@@ -77,6 +80,16 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
     THROTTLE_ADC_RAW = HAL_ADC_GetValue(hadc);
 }
 
+//
+// INTERNAL 1MS ENGINE TICK TIMER
+//
+
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef* htim)
+{
+    if (htim != SE4.handles.h_1ms) return;
+
+    READY_FOR_TICK = true;
+}
 
 //
 // CONFIGURATION
@@ -84,10 +97,10 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
 
 void configure_engine()
 {
-    energise_solenoid(SOLENOID_1, false);
-    energise_solenoid(SOLENOID_2, false);
-    energise_solenoid(SOLENOID_3, false);
-    energise_solenoid(SOLENOID_4, false);
+    energise_solenoid(&SOLENOIDS[0], false);
+    energise_solenoid(&SOLENOIDS[1], false);
+    energise_solenoid(&SOLENOIDS[2], false);
+    energise_solenoid(&SOLENOIDS[3], false);
 
     ma730_init(&RESOLVER, resolver_spi_xmit, resolver_spi_recv);
 
@@ -96,6 +109,7 @@ void configure_engine()
     HAL_ADC_Start_IT(SE4.handles.h_eng_throttle);
 
     HAL_TIM_PWM_Start(SE4.handles.h_pwm, TIM_CHANNEL_1);
+    HAL_TIM_Base_Start_IT(SE4.handles.h_1ms);
 }
 
 //
@@ -105,7 +119,7 @@ void configure_engine()
 void calibrate_engine()
 {
     unsigned int revolutions = 2;
-    unsigned int repeats = 50;
+    unsigned int repeats = 100;
 
     //
     // Collect & sum the calibration samples
@@ -115,17 +129,18 @@ void calibrate_engine()
     {
         energise_all_solenoids(false);
 
-        enum Solenoid s = SOLENOIDS[i % SOLENOID_COUNT];
+        const struct Solenoid* s = &SOLENOIDS[i % SOLENOID_COUNT];
         energise_solenoid(s, true);
+
+        HAL_Delay(1000);
 
         for (int j = 0; j < repeats; j++)
         {
             float cal = 0.0f;
             ma730_read_angle(&RESOLVER, &cal);
             SE4.calibration[i] += cal;
+            HAL_Delay(2);
         }
-
-        HAL_Delay(500);
     }
 
     //
@@ -136,7 +151,7 @@ void calibrate_engine()
     unsigned int samples = revolutions * repeats;
     for (int i = 0; i < SOLENOID_COUNT; i++)
     {
-        SE4.calibration[i] / samples;
+        SE4.calibration[i] /= samples;
     }
 }
 
@@ -279,6 +294,10 @@ void main_SolenoidEngine4(
 
     while(1)
     {
+        __WFI();
+        if (!READY_FOR_TICK) continue;
+
+        READY_FOR_TICK = false;
         tick_engine();
     }
 }

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SMC30J18A'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "SMC30J18A" (!) = "", "DIOM8059X265N", "Diodes Moulded", "", "", "3000 W,18 V TVS in SMC", "https://www.st.com/resource/en/datasheet/smc30j10a.pdf", "2.65 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMC30J18A
+D 3000 W,18 V TVS in SMC
+K
+F https://www.st.com/resource/en/datasheet/smc30j10a.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -332,212 +332,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1234,6 +1028,180 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TB005-762-02BE:TB005-762-02BE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TB005-762-02BE"
+				(at 16.51 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TB005-762-02BE"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/supplyframepdf/tb005-762.pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "TB005-762 Series - 2~24 Poles, Screw Type, Horizontal, 7.62 Pitch, 26~10 (AWG), Terminal Block Connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "22.1"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "490-TB005-762-02BE"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/TB005-762-02BE?qs=vLWxofP3U2zXv1H2wuShow%3D%3D"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Same Sky"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TB005-762-02BE"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "TB005-762-02BE_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3014,7 +2982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 57.15 109.982 90)
 			(hide yes)
 			(show_name no)
@@ -3245,7 +3213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "220u"
 			(at 149.86 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3256,7 +3224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 152.7048 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3414,7 +3382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT230P700X180-4N"
+		(property "Footprint" "footprints:SOT230P700X180-4N"
 			(at 177.8 187.63 0)
 			(hide yes)
 			(show_name no)
@@ -3799,7 +3767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO254P470X1016X2016-3P"
+		(property "Footprint" "footprints:TO254P470X1016X2016-3P"
 			(at 73.66 210.49 0)
 			(hide yes)
 			(show_name no)
@@ -4025,7 +3993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 142.748 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -4163,7 +4131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7038cee3-772d-4e10-b567-ecbfb079feb1")
-		(property "Reference" "100n4"
+		(property "Reference" "100n1"
 			(at 46.99 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4174,7 +4142,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "C5"
 			(at 46.99 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4185,7 +4153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 49.8348 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4237,7 +4205,151 @@
 		(instances
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/7c0cdd10-19ae-416b-88d1-d044c467c56f"
-					(reference "100n4")
+					(reference "100n1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TB005-762-02BE:TB005-762-02BE")
+		(at 166.37 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73fcb253-ccf1-4f77-9154-2c265cf4b5ed")
+		(property "Reference" "J15"
+			(at 182.88 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TB005-762-02BE"
+			(at 182.88 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:TB005-762-02BE"
+			(at 182.88 138.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/supplyframepdf/tb005-762.pdf"
+			(at 182.88 238.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "TB005-762 Series - 2~24 Poles, Screw Type, Horizontal, 7.62 Pitch, 26~10 (AWG), Terminal Block Connector"
+			(at 166.37 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "22.1"
+			(at 182.88 438.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "490-TB005-762-02BE"
+			(at 182.88 538.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/TB005-762-02BE?qs=vLWxofP3U2zXv1H2wuShow%3D%3D"
+			(at 182.88 638.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Same Sky"
+			(at 182.88 738.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TB005-762-02BE"
+			(at 182.88 838.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "08d9329e-c530-4551-87bb-4433f0cf8848")
+		)
+		(pin "1"
+			(uuid "ab6a4a36-22a6-4023-a41d-f6fac0b083d6")
+		)
+		(instances
+			(project "SolenoidEngine4"
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/7c0cdd10-19ae-416b-88d1-d044c467c56f"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -4277,7 +4389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 99.822 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -4326,88 +4438,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 85.09 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ddcef56-4675-4d34-b437-fae9074b72ab")
-		(property "Reference" "C8"
-			(at 88.9 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 88.9 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.0552 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 85.09 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f42c0f01-acd5-4d08-b45f-00904541cd73")
-		)
-		(pin "2"
-			(uuid "03ffbf85-614d-42f3-aef7-347dce5b5130")
-		)
-		(instances
-			(project "SolenoidEngine4"
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/7c0cdd10-19ae-416b-88d1-d044c467c56f"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 44.45 57.15 0)
 		(unit 1)
@@ -4441,7 +4471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 42.672 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -4918,7 +4948,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 140.97 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4979,8 +5009,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 63.5 127 0)
-		(mirror y)
+		(at 85.09 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4988,9 +5017,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c39fd12a-1f0a-46bb-903e-d4ddc868d6c4")
-		(property "Reference" "220u4"
-			(at 59.69 125.7299 0)
+		(fields_autoplaced yes)
+		(uuid "c0ed16d7-0343-4463-85a4-7763f1815c12")
+		(property "Reference" "C109"
+			(at 88.9 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5000,8 +5030,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 59.69 128.2699 0)
+		(property "Value" "100n"
+			(at 88.9 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5011,8 +5041,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 62.5348 130.81 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 86.0552 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5023,6 +5053,88 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 85.09 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9e40f146-8850-45fd-a56a-22d904161722")
+		)
+		(pin "1"
+			(uuid "f733a25b-d1f2-4139-a0b9-4d1dbfd67083")
+		)
+		(instances
+			(project "SolenoidEngine4"
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/7c0cdd10-19ae-416b-88d1-d044c467c56f"
+					(reference "C109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 63.5 127 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c39fd12a-1f0a-46bb-903e-d4ddc868d6c4")
+		(property "Reference" "220u1"
+			(at 59.69 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C4"
+			(at 59.69 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
+			(at 62.5348 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28395/150crz.pdf"
 			(at 63.5 127 0)
 			(hide yes)
 			(show_name no)
@@ -5063,7 +5175,7 @@
 		(instances
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/7c0cdd10-19ae-416b-88d1-d044c467c56f"
-					(reference "220u4")
+					(reference "220u1")
 					(unit 1)
 				)
 			)
@@ -5101,7 +5213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "footprints:SOT95P280X145-5N"
 			(at 78.74 136.83 0)
 			(hide yes)
 			(show_name no)
@@ -5299,88 +5411,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 171.45 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9ff2e04-d251-4a37-a940-3a3f5aaf22cf")
-		(property "Reference" "J1"
-			(at 173.99 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 173.99 45.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 171.45 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c5ba2df8-e6a2-4b05-b1b6-ab3103f8ca88")
-		)
-		(pin "2"
-			(uuid "d202caff-247d-420a-beef-d297e8f2466d")
-		)
-		(instances
-			(project "SolenoidEngine4"
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/7c0cdd10-19ae-416b-88d1-d044c467c56f"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 184.15 114.3 0)
 		(unit 1)
@@ -5467,12 +5497,12 @@
 			"60a4e7ee-4b0c-483b-9bf5-98e5d3fa5a91" "6688729b-fefc-49f8-b075-cc1aac5ca5b0"
 			"6a16c6ca-ab36-4ff8-8ed6-0e66bc99ebb7" "72d05b96-8b67-4234-8f18-9fccc742928f"
 			"74521e30-a7dc-4139-a010-9fe8dfb9020c" "78d33003-cde2-446c-9771-8d86fd1b0b6b"
-			"7ddcef56-4675-4d34-b437-fae9074b72ab" "88b7d6d1-80ef-4b34-b7a2-baa54027268c"
-			"8d437c0e-f688-44e3-821b-8da27da33025" "9316673f-24cb-442a-a821-6e0cf755ffc4"
-			"a0bf82b9-744a-4ef8-a4a4-3914258b8da1" "aafb2ab0-0ce7-4705-a41c-5fb060bdc826"
-			"aeb77c1a-023e-47e7-87ff-81d58b0b917b" "aebc4023-3880-487b-b441-e8fcdb478f1c"
-			"b337a1b2-b4fa-4f31-9d68-712ee5c70a45" "b3d81279-5afe-42af-ae91-9ff92e798621"
-			"b48e6acf-03d8-4088-820e-71b876bab1fb" "bef2c0e0-b5d7-4492-ab5f-79e6ccc90697"
+			"88b7d6d1-80ef-4b34-b7a2-baa54027268c" "8d437c0e-f688-44e3-821b-8da27da33025"
+			"9316673f-24cb-442a-a821-6e0cf755ffc4" "a0bf82b9-744a-4ef8-a4a4-3914258b8da1"
+			"aafb2ab0-0ce7-4705-a41c-5fb060bdc826" "aeb77c1a-023e-47e7-87ff-81d58b0b917b"
+			"aebc4023-3880-487b-b441-e8fcdb478f1c" "b337a1b2-b4fa-4f31-9d68-712ee5c70a45"
+			"b3d81279-5afe-42af-ae91-9ff92e798621" "b48e6acf-03d8-4088-820e-71b876bab1fb"
+			"bef2c0e0-b5d7-4492-ab5f-79e6ccc90697" "c0ed16d7-0343-4463-85a4-7763f1815c12"
 			"ca852b2b-596a-4d11-94cb-8ede36e919fd" "cac07c31-b0ea-42a1-bd54-b0e990412473"
 			"d0853bbf-ef8d-423d-9310-4c06a1bad1c3" "d19c1d2a-4b28-4687-9f19-5d8d5f1f7c68"
 			"d549a540-a5b6-4a50-9c67-1d3abc4d6677" "d9f8e8f7-9d8a-4f8d-902d-ec77430252df"

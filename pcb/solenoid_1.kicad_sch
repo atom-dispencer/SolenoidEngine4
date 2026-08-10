@@ -332,146 +332,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
@@ -833,172 +693,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_TVS_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1323,6 +1017,244 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SMC30J18A:SMC30J18A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 10.16 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SMC30J18A"
+				(at 10.16 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DIOM8059X265N"
+				(at 10.16 -93.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/smc30j10a.pdf"
+				(at 10.16 -193.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "3000 W,18 V TVS in SMC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "2.65"
+				(at 10.16 -393.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 10.16 -493.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 10.16 -593.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 10.16 -693.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SMC30J18A"
+				(at 10.16 -793.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(symbol "SMC30J18A_1_1"
+				(polyline
+					(pts
+						(xy 4.064 2.54) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 6.096 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1824,7 +1756,7 @@
 		)
 	)
 	(rectangle
-		(start 177.8 25.4)
+		(start 165.1 25.4)
 		(end 266.7 76.2)
 		(stroke
 			(width 0)
@@ -1869,6 +1801,16 @@
 		)
 		(uuid "237a682d-3ea5-429f-922e-40c089fe00e0")
 	)
+	(text "TVS diode goes UP from SOL- to SOL+ \nbecause it becomes reverse biased at \n~18v to clamp voltage transients to ~50v."
+		(exclude_from_sim no)
+		(at 241.3 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5c81b09f-2e3c-47f1-a70e-634c0a9cd3fd")
+	)
 	(text "NMOS Gate Driver"
 		(exclude_from_sim no)
 		(at 69.85 27.94 0)
@@ -1881,7 +1823,7 @@
 	)
 	(text "Solenoid, TVS/Flyback, Indicator"
 		(exclude_from_sim no)
-		(at 222.25 27.94 0)
+		(at 215.9 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1920,22 +1862,34 @@
 		(uuid "d795d9d4-d9b0-45a8-8464-b8dc77df0802")
 	)
 	(junction
+		(at 222.25 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04887729-096f-4b51-8af1-89277ac496df")
+	)
+	(junction
 		(at 101.6 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06294da6-61c7-4948-aa11-c1b31cda6141")
 	)
 	(junction
-		(at 222.25 63.5)
+		(at 209.55 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a4b742c-91c0-469e-9895-5c20e9101186")
+		(uuid "3abc7f6b-b138-4dd4-aec3-a0845d99e3ec")
 	)
 	(junction
-		(at 209.55 63.5)
+		(at 196.85 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43fe27f3-b616-407c-b6fc-015631ca73a4")
+	)
+	(junction
+		(at 247.65 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "474455e9-a662-4c58-bda5-6e9bfdc129bb")
 	)
 	(junction
 		(at 85.09 44.45)
@@ -1944,16 +1898,16 @@
 		(uuid "54039fde-c7d1-496b-b23f-e323ecf67240")
 	)
 	(junction
-		(at 209.55 38.1)
+		(at 196.85 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8adceec8-eb45-4129-810a-82b5db88528f")
 	)
 	(junction
-		(at 247.65 63.5)
+		(at 247.65 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8fb3c8d1-05e5-40eb-bcf4-0db929fd58de")
+		(uuid "8bd46e1a-a37e-4280-ba29-a390a6f824f2")
 	)
 	(junction
 		(at 234.95 63.5)
@@ -1962,22 +1916,22 @@
 		(uuid "973a1369-d79e-4290-b29a-feb079b29811")
 	)
 	(junction
-		(at 222.25 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "976b59c4-2dca-44a8-970c-b2a9af111876")
-	)
-	(junction
 		(at 44.45 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfd602ff-e27b-4c9d-902b-f9d392d8e067")
 	)
 	(junction
-		(at 247.65 38.1)
+		(at 222.25 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d53095e9-924a-4097-8a2d-14739efa4e66")
+		(uuid "c30a90ef-8cac-4631-9dd6-a6e687127471")
+	)
+	(junction
+		(at 209.55 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2dc1128-d022-4f8e-be6f-1ae8f957da0c")
 	)
 	(junction
 		(at 234.95 38.1)
@@ -2007,7 +1961,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 63.5) (xy 209.55 63.5)
+			(xy 190.5 63.5) (xy 196.85 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2024,6 +1978,26 @@
 			(type default)
 		)
 		(uuid "09cead7b-0434-48f3-8840-ca80a7a8b25b")
+	)
+	(wire
+		(pts
+			(xy 209.55 38.1) (xy 209.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a798644-da41-498d-af12-b38fde7feebd")
+	)
+	(wire
+		(pts
+			(xy 209.55 38.1) (xy 196.85 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df71dad-855e-4560-8c5d-0e1e2b968da6")
 	)
 	(wire
 		(pts
@@ -2047,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 38.1) (xy 209.55 38.1)
+			(xy 190.5 38.1) (xy 196.85 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2157,7 +2131,7 @@
 	)
 	(polyline
 		(pts
-			(xy 177.8 29.21) (xy 266.7 29.21)
+			(xy 165.1 29.21) (xy 266.7 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2167,33 +2141,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 38.1) (xy 247.65 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a9973c5-a169-4b9b-8468-cce1f2198a9e")
-	)
-	(wire
-		(pts
-			(xy 209.55 63.5) (xy 209.55 52.07)
+			(xy 196.85 63.5) (xy 196.85 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6e7420fe-db0a-4c11-aef5-e94df4b19f74")
-	)
-	(wire
-		(pts
-			(xy 247.65 54.61) (xy 247.65 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f40bdd6-8014-41d0-9dfb-017f2008049f")
 	)
 	(wire
 		(pts
@@ -2224,6 +2178,16 @@
 			(type default)
 		)
 		(uuid "824d1d3f-5680-4a9f-a2c7-13cd532a724a")
+	)
+	(wire
+		(pts
+			(xy 247.65 58.42) (xy 247.65 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f056b3f-4566-4a34-9df4-2b59c60bfcbf")
 	)
 	(wire
 		(pts
@@ -2277,7 +2241,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 38.1) (xy 209.55 49.53)
+			(xy 196.85 38.1) (xy 196.85 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2325,6 +2289,16 @@
 		)
 		(uuid "b1d9331b-4f9e-4a99-a57f-0e4b782430c4")
 	)
+	(wire
+		(pts
+			(xy 247.65 38.1) (xy 247.65 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f42cd1-5588-415f-bd0a-84ebf704cd78")
+	)
 	(polyline
 		(pts
 			(xy 25.4 29.21) (xy 114.3 29.21)
@@ -2334,6 +2308,16 @@
 			(type default)
 		)
 		(uuid "c1700f2b-da8b-4c77-868a-0b2d415bd01b")
+	)
+	(wire
+		(pts
+			(xy 209.55 54.61) (xy 209.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73b4df5-42c0-492a-ae32-ae9cc4742217")
 	)
 	(wire
 		(pts
@@ -2417,6 +2401,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 63.5) (xy 196.85 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f27f0b51-72b3-424a-ba1b-f96745915fed")
+	)
+	(wire
+		(pts
 			(xy 234.95 38.1) (xy 234.95 46.99)
 		)
 		(stroke
@@ -2496,7 +2490,7 @@
 		(uuid "40b95481-1070-41cf-a558-adb5e9f11cbb")
 	)
 	(label "SOL-"
-		(at 203.2 63.5 0)
+		(at 190.5 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2506,7 +2500,7 @@
 		(uuid "55e59b71-7cc3-493d-91be-c021ba1a604a")
 	)
 	(label "SOL+"
-		(at 203.2 38.1 0)
+		(at 190.5 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2669,7 +2663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "footprints:SOT95P280X145-5N"
 			(at 78.74 136.83 0)
 			(hide yes)
 			(show_name no)
@@ -3104,7 +3098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 99.822 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -3256,7 +3250,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85.09 57.15 0)
+		(at 209.55 50.8 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3264,10 +3259,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43b67aa5-21c8-446b-af51-93dd823c976d")
-		(property "Reference" "C2"
-			(at 88.9 55.8799 0)
+		(uuid "3ae4b744-8314-498b-827e-5750d0ca788e")
+		(property "Reference" "C124"
+			(at 205.74 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3277,8 +3271,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 88.9 58.4199 0)
+		(property "Value" "4u7"
+			(at 205.74 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3288,8 +3282,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 86.0552 60.96 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 208.5848 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3300,7 +3294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 57.15 0)
+			(at 209.55 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3310,9 +3304,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 85.09 57.15 0)
-			(hide yes)
+		(property "Description" "Electrolytic"
+			(at 203.454 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3322,27 +3315,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "c6568caa-e4e3-4963-b6cc-77a888314aed")
+			(uuid "4e2d4119-ce75-4f00-8d8c-d12382f214c4")
 		)
 		(pin "2"
-			(uuid "f881cbc6-d9b5-4fab-b9e7-a76b93773323")
+			(uuid "93b76071-cd93-4c60-8688-e3a66aff63e2")
 		)
 		(instances
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/1e189177-1ffd-48bf-8381-80b2ae3aeecb"
-					(reference "C5")
+					(reference "C127")
 					(unit 1)
 				)
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/5e7b7f5b-7602-483d-9622-47b5c34c6ce4"
-					(reference "C3")
+					(reference "C125")
 					(unit 1)
 				)
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/896e96b4-c651-4615-ba74-5107dc3955e0"
-					(reference "C2")
+					(reference "C124")
 					(unit 1)
 				)
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/dcd1f385-6e3d-442d-bc05-0404acb533c3"
-					(reference "C4")
+					(reference "C126")
 					(unit 1)
 				)
 			)
@@ -3380,7 +3373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 133.35 127.762 90)
 			(hide yes)
 			(show_name no)
@@ -3474,7 +3467,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 260.35 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3547,8 +3540,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 222.25 50.8 0)
-		(mirror y)
+		(at 85.09 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3556,9 +3548,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "77fcb79d-9f2b-4782-a546-0d2f557ad044")
-		(property "Reference" "220u5"
-			(at 218.44 49.5299 0)
+		(fields_autoplaced yes)
+		(uuid "6ccdab69-0648-47a2-a6b0-dceccb851afb")
+		(property "Reference" "C101"
+			(at 88.9 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3568,8 +3561,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 218.44 52.0699 0)
+		(property "Value" "100n"
+			(at 88.9 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3579,8 +3572,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 221.2848 54.61 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 86.0552 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3591,7 +3584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 50.8 0)
+			(at 85.09 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3601,18 +3594,8 @@
 				)
 			)
 		)
-		(property "Description" "Electrolytic"
-			(at 216.408 47.244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 222.25 50.8 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3621,29 +3604,29 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "20ae2969-9bc8-4f9a-92e6-a9f7182a1a58")
 		)
 		(pin "2"
-			(uuid "f6b532ed-e42a-4526-a649-3b812eecf35e")
+			(uuid "e90044fb-bc8f-4049-962f-655d4342cd64")
+		)
+		(pin "1"
+			(uuid "efbcdb19-b540-459c-92ae-0513bad47f4b")
 		)
 		(instances
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/1e189177-1ffd-48bf-8381-80b2ae3aeecb"
-					(reference "220u3")
+					(reference "C104")
 					(unit 1)
 				)
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/5e7b7f5b-7602-483d-9622-47b5c34c6ce4"
-					(reference "220u1")
+					(reference "C102")
 					(unit 1)
 				)
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/896e96b4-c651-4615-ba74-5107dc3955e0"
-					(reference "220u5")
+					(reference "C101")
 					(unit 1)
 				)
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/dcd1f385-6e3d-442d-bc05-0404acb533c3"
-					(reference "220u2")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -3651,7 +3634,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 204.47 49.53 0)
+		(at 191.77 49.53 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3663,7 +3646,7 @@
 		(fields_autoplaced yes)
 		(uuid "797699ea-2005-4498-8c55-54cd85aec307")
 		(property "Reference" "J3"
-			(at 201.93 49.5299 0)
+			(at 189.23 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3674,7 +3657,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 201.93 52.0699 0)
+			(at 189.23 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3684,8 +3667,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 204.47 49.53 0)
+		(property "Footprint" "footprints:TB005-762-02BE"
+			(at 191.77 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3696,7 +3679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 49.53 0)
+			(at 191.77 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3707,7 +3690,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 204.47 49.53 0)
+			(at 191.77 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3835,100 +3818,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 247.65 50.8 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "928b7351-df22-4f10-99eb-9bffee07e496")
-		(property "Reference" "D4"
-			(at 245.11 49.5299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 245.11 52.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 247.65 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "296e1e59-22c3-477e-8b1e-8aaa6cefd785")
-		)
-		(pin "1"
-			(uuid "ae44a5a1-8ee9-43c7-9a5a-a156390d38fe")
-		)
-		(instances
-			(project "SolenoidEngine4"
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/1e189177-1ffd-48bf-8381-80b2ae3aeecb"
-					(reference "D10")
-					(unit 1)
-				)
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/5e7b7f5b-7602-483d-9622-47b5c34c6ce4"
-					(reference "D6")
-					(unit 1)
-				)
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/896e96b4-c651-4615-ba74-5107dc3955e0"
-					(reference "D4")
-					(unit 1)
-				)
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/dcd1f385-6e3d-442d-bc05-0404acb533c3"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 85.09 63.5 0)
 		(unit 1)
@@ -4019,8 +3908,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 158.75 114.3 0)
+		(lib_id "Device:C")
+		(at 222.25 50.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4029,32 +3918,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4cb2bd7-cc89-4afe-87e6-c41e8ee6a5d1")
-		(property "Reference" "J4"
-			(at 158.115 109.22 0)
+		(uuid "b4c9990c-45e2-41e5-8dec-68d39c565f41")
+		(property "Reference" "C121"
+			(at 218.44 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 158.115 111.76 0)
+		(property "Value" "4u7"
+			(at 218.44 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 158.75 114.3 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 221.2848 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4065,7 +3953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 114.3 0)
+			(at 222.25 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4075,9 +3963,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 158.75 114.3 0)
-			(hide yes)
+		(property "Description" "Electrolytic"
+			(at 216.154 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4087,116 +3974,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "cbbe0bfb-4971-419e-8098-d583faae5770")
+			(uuid "7962d755-e51a-4818-9a2d-50c2843cc894")
+		)
+		(pin "2"
+			(uuid "f9204185-9760-4e73-bde6-a10098d4ce7b")
 		)
 		(instances
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/1e189177-1ffd-48bf-8381-80b2ae3aeecb"
-					(reference "J12")
+					(reference "C128")
 					(unit 1)
 				)
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/5e7b7f5b-7602-483d-9622-47b5c34c6ce4"
-					(reference "J6")
+					(reference "C122")
 					(unit 1)
 				)
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/896e96b4-c651-4615-ba74-5107dc3955e0"
-					(reference "J4")
+					(reference "C121")
 					(unit 1)
 				)
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/dcd1f385-6e3d-442d-bc05-0404acb533c3"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 158.75 101.6 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c68f2c9a-e9d8-4fdd-b337-10ad5faff083")
-		(property "Reference" "J2"
-			(at 158.115 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 158.115 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 158.75 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "73cb0ffd-0870-4c4c-8f5f-55eff6a63c65")
-		)
-		(instances
-			(project "SolenoidEngine4"
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/1e189177-1ffd-48bf-8381-80b2ae3aeecb"
-					(reference "J11")
-					(unit 1)
-				)
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/5e7b7f5b-7602-483d-9622-47b5c34c6ce4"
-					(reference "J5")
-					(unit 1)
-				)
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/896e96b4-c651-4615-ba74-5107dc3955e0"
-					(reference "J2")
-					(unit 1)
-				)
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/dcd1f385-6e3d-442d-bc05-0404acb533c3"
-					(reference "J8")
+					(reference "C123")
 					(unit 1)
 				)
 			)
@@ -4237,7 +4035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 262.128 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -4331,7 +4129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 42.672 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -4402,8 +4200,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d6935c49-fd08-4fed-b77d-e60bc0b901d5")
-		(property "Reference" "100n5"
+		(uuid "dced4ab3-db2a-4241-9e32-95d2b170ff3d")
+		(property "Reference" "C105"
 			(at 231.14 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4414,7 +4212,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 231.14 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4425,7 +4223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 233.9848 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4448,7 +4246,7 @@
 			)
 		)
 		(property "Description" "Ceramic"
-			(at 230.632 47.244 0)
+			(at 228.6 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4457,8 +4255,93 @@
 				)
 			)
 		)
-		(property "Field5" ""
-			(at 234.95 50.8 0)
+		(pin "2"
+			(uuid "f21a417f-80fb-4d70-a7de-b4f5f5aee94f")
+		)
+		(pin "1"
+			(uuid "6f78c469-5485-445f-9ee8-6d66dc46462b")
+		)
+		(instances
+			(project "SolenoidEngine4"
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/1e189177-1ffd-48bf-8381-80b2ae3aeecb"
+					(reference "C108")
+					(unit 1)
+				)
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/5e7b7f5b-7602-483d-9622-47b5c34c6ce4"
+					(reference "C106")
+					(unit 1)
+				)
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/896e96b4-c651-4615-ba74-5107dc3955e0"
+					(reference "C105")
+					(unit 1)
+				)
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/dcd1f385-6e3d-442d-bc05-0404acb533c3"
+					(reference "C107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMC30J18A:SMC30J18A")
+		(at 247.65 43.18 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ddd5f711-c2b3-4bce-add9-fa9fc6854947")
+		(property "Reference" "D3"
+			(at 243.84 49.0219 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMC30J18A"
+			(at 243.84 51.5619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:DIOM8059X265N"
+			(at 341.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/smc30j10a.pdf"
+			(at 441.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "3000 W,18 V TVS in SMC"
+			(at 247.65 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4468,28 +4351,88 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "c852c8a2-c501-43bf-905d-c34292160a24")
+		(property "Height" "2.65"
+			(at 641.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 741.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 841.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 941.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMC30J18A"
+			(at 1041.3 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
 		)
 		(pin "2"
-			(uuid "83a1ce62-2960-412a-88ba-7b3d9680c887")
+			(uuid "5acd1a93-25c4-4d09-b0be-6f3f9f82605f")
+		)
+		(pin "1"
+			(uuid "deb79d79-d2f5-42a9-b6a1-de70c45b1b38")
 		)
 		(instances
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/1e189177-1ffd-48bf-8381-80b2ae3aeecb"
-					(reference "100n3")
+					(reference "D8")
 					(unit 1)
 				)
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/5e7b7f5b-7602-483d-9622-47b5c34c6ce4"
-					(reference "100n1")
+					(reference "D4")
 					(unit 1)
 				)
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/896e96b4-c651-4615-ba74-5107dc3955e0"
-					(reference "100n5")
+					(reference "D3")
 					(unit 1)
 				)
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/9d80248c-e3f3-4348-ae7a-471f00b28847/dcd1f385-6e3d-442d-bc05-0404acb533c3"
-					(reference "100n2")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4529,7 +4472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO254P470X1016X2016-3P"
+		(property "Footprint" "footprints:TO254P470X1016X2016-3P"
 			(at 149.86 228.27 0)
 			(hide yes)
 			(show_name no)
@@ -4656,25 +4599,29 @@
 	)
 	(group ""
 		(uuid "77daf5e4-081d-42e1-8863-60d5a09adff2")
-		(members "0738f25c-d48d-4e56-aced-f8d547b5b2ea" "088888c1-f323-426b-87e1-3bfde45f146f"
-			"135c6a43-3f59-47c7-9bf9-1e32d8cd0ed0" "20e58f6d-6192-45e7-97ce-fb4481d8fc9e"
-			"3a4b742c-91c0-469e-9895-5c20e9101186" "43fe27f3-b616-407c-b6fc-015631ca73a4"
-			"55e59b71-7cc3-493d-91be-c021ba1a604a" "59ad495e-4d15-4ef3-b0c1-19c04054a3a2"
+		(members "04887729-096f-4b51-8af1-89277ac496df" "0738f25c-d48d-4e56-aced-f8d547b5b2ea"
+			"088888c1-f323-426b-87e1-3bfde45f146f" "0a798644-da41-498d-af12-b38fde7feebd"
+			"0df71dad-855e-4560-8c5d-0e1e2b968da6" "135c6a43-3f59-47c7-9bf9-1e32d8cd0ed0"
+			"20e58f6d-6192-45e7-97ce-fb4481d8fc9e" "3abc7f6b-b138-4dd4-aec3-a0845d99e3ec"
+			"3ae4b744-8314-498b-827e-5750d0ca788e" "43fe27f3-b616-407c-b6fc-015631ca73a4"
+			"474455e9-a662-4c58-bda5-6e9bfdc129bb" "55e59b71-7cc3-493d-91be-c021ba1a604a"
+			"59ad495e-4d15-4ef3-b0c1-19c04054a3a2" "5c81b09f-2e3c-47f1-a70e-634c0a9cd3fd"
 			"5e127bcf-d55c-486e-9636-9a97d75a5134" "60056fe1-bfa2-402f-8ed1-ebacd9a6f4cb"
 			"60a9d61a-6614-4ed5-a17b-eab4c3f55340" "69f04b03-fef7-40a0-bc34-562216d6f3d2"
-			"6a9973c5-a169-4b9b-8468-cce1f2198a9e" "6c8be35e-de77-47b5-b36a-265b4a9aeba5"
-			"6e7420fe-db0a-4c11-aef5-e94df4b19f74" "6f40bdd6-8014-41d0-9dfb-017f2008049f"
-			"7332bfd5-49de-4611-a2e0-9190bf6cc160" "77fcb79d-9f2b-4782-a546-0d2f557ad044"
-			"797699ea-2005-4498-8c55-54cd85aec307" "824d1d3f-5680-4a9f-a2c7-13cd532a724a"
-			"8adceec8-eb45-4129-810a-82b5db88528f" "8f54b4c5-91fb-4425-a8bc-22a915c6d1de"
-			"8fb3c8d1-05e5-40eb-bcf4-0db929fd58de" "922b57c4-fa6a-42ce-81fc-37b9bda4baf6"
-			"928b7351-df22-4f10-99eb-9bffee07e496" "973a1369-d79e-4290-b29a-feb079b29811"
-			"976b59c4-2dca-44a8-970c-b2a9af111876" "9a8f15e5-63d2-4c93-a104-5acde1bcb69a"
+			"6c8be35e-de77-47b5-b36a-265b4a9aeba5" "6e7420fe-db0a-4c11-aef5-e94df4b19f74"
+			"7332bfd5-49de-4611-a2e0-9190bf6cc160" "797699ea-2005-4498-8c55-54cd85aec307"
+			"824d1d3f-5680-4a9f-a2c7-13cd532a724a" "8adceec8-eb45-4129-810a-82b5db88528f"
+			"8bd46e1a-a37e-4280-ba29-a390a6f824f2" "8f056b3f-4566-4a34-9df4-2b59c60bfcbf"
+			"8f54b4c5-91fb-4425-a8bc-22a915c6d1de" "922b57c4-fa6a-42ce-81fc-37b9bda4baf6"
+			"973a1369-d79e-4290-b29a-feb079b29811" "9a8f15e5-63d2-4c93-a104-5acde1bcb69a"
 			"9bd98cd1-3b21-4366-8ca7-bcf3870ea888" "a0932be2-e51a-4513-8661-c447ff019249"
-			"ce80e19a-343c-48bb-859e-f73e0246a150" "d4772298-75d1-4576-89c2-ccb8e8d09734"
-			"d53095e9-924a-4097-8a2d-14739efa4e66" "d6935c49-fd08-4fed-b77d-e60bc0b901d5"
-			"d72cdc89-df23-40da-86b4-38efcb345f0a" "db111453-e8a8-4bf0-9642-30ab6dcc379e"
-			"e4033601-db7a-4940-97d9-c8bcefa56940" "e8a25e02-082b-4082-98f7-635cb0671171"
+			"b1f42cd1-5588-415f-bd0a-84ebf704cd78" "b4c9990c-45e2-41e5-8dec-68d39c565f41"
+			"c30a90ef-8cac-4631-9dd6-a6e687127471" "c73b4df5-42c0-492a-ae32-ae9cc4742217"
+			"ce80e19a-343c-48bb-859e-f73e0246a150" "d2dc1128-d022-4f8e-be6f-1ae8f957da0c"
+			"d4772298-75d1-4576-89c2-ccb8e8d09734" "d72cdc89-df23-40da-86b4-38efcb345f0a"
+			"db111453-e8a8-4bf0-9642-30ab6dcc379e" "dced4ab3-db2a-4241-9e32-95d2b170ff3d"
+			"ddd5f711-c2b3-4bce-add9-fa9fc6854947" "e4033601-db7a-4940-97d9-c8bcefa56940"
+			"e8a25e02-082b-4082-98f7-635cb0671171" "f27f0b51-72b3-424a-ba1b-f96745915fed"
 			"f3206449-68d5-47ca-8e29-6185f931a11b" "faa0678a-11fa-43f5-ba29-04073390ac30"
 		)
 	)
@@ -4684,8 +4631,7 @@
 			"13e867b2-49ce-4213-82c0-a67fe67264a9" "237a6633-df9b-4d83-b620-f53c1dec496a"
 			"40b95481-1070-41cf-a558-adb5e9f11cbb" "4909c940-36a0-4a98-accb-7d1a131f71b9"
 			"4a49a2e4-d87f-4fa7-b498-b115293b48d9" "6867a99e-dc2e-4dae-aecc-6769939955ef"
-			"95e72fad-54db-417d-bcf1-211183cd4500" "b4cb2bd7-cc89-4afe-87e6-c41e8ee6a5d1"
-			"ba42f1a9-0794-4faa-ab2c-77a4a763f0dd" "c68f2c9a-e9d8-4fdd-b337-10ad5faff083"
+			"95e72fad-54db-417d-bcf1-211183cd4500" "ba42f1a9-0794-4faa-ab2c-77a4a763f0dd"
 			"c8868067-eb68-4cd9-856c-0ecee558d5bf" "ca700e9d-3273-43aa-a7d5-1623a6594ace"
 			"d40a2724-6a23-4e16-9d88-1cfe834c42fe" "d51c5b2c-0304-48b8-90d2-0ea5a588fdc6"
 			"de6f766e-5547-40c5-a4b4-ba799aab76e4" "e3db0938-7360-425a-a375-e89cef00c7fd"
@@ -4701,9 +4647,9 @@
 			"31dfd47c-b129-4419-bd5c-ad6ef65fc104" "3650304c-66f5-4d57-93b6-aa25553ec196"
 			"366b0089-4530-4058-9e32-ff84f202259d" "39711b88-7add-4b0e-875b-cb9c37567d4c"
 			"3bf21403-7005-4823-8fa6-43587fe6c73b" "3d75bfdd-61b2-49c4-b145-761740ce4eab"
-			"43b67aa5-21c8-446b-af51-93dd823c976d" "4538dbb4-b2be-4b92-b248-8637d4bebc11"
-			"498061db-9fea-4f55-9118-acb998550b76" "54039fde-c7d1-496b-b23f-e323ecf67240"
-			"6af66e1e-f5d2-422f-b97c-fe95002257e2" "6be73014-2b69-40fb-8c21-414954fcf984"
+			"4538dbb4-b2be-4b92-b248-8637d4bebc11" "498061db-9fea-4f55-9118-acb998550b76"
+			"54039fde-c7d1-496b-b23f-e323ecf67240" "6af66e1e-f5d2-422f-b97c-fe95002257e2"
+			"6be73014-2b69-40fb-8c21-414954fcf984" "6ccdab69-0648-47a2-a6b0-dceccb851afb"
 			"7b4d5246-9220-4cde-bdc6-091159a73c39" "878c1449-48c2-4e51-a76c-9afdbddae2ea"
 			"91a1317d-5d30-4a18-91ca-f00acbcd2ecc" "925e23a1-d163-4e67-97df-ec9659e9c653"
 			"953cfe19-6476-4972-83b5-be641ee4afe1" "9df9c1a1-611c-4932-ba63-7df04ca052ce"

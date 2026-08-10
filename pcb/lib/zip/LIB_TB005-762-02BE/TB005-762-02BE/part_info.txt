@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=TB005-762-02BE
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=11.1
+Released=2019-08-08 10:22:29
+Downloaded=2026-08-10 19:08:03
+3D=Y

@@ -1,0 +1,10 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "TB005-762-02BE") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/TB005-762-02BE.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS2819DBVT") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/TPS2819DBVT.kicad_sym") (options "") (descr ""))
+	(lib (name "STM32C092FCP6") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/STM32C092FCP6.kicad_sym") (options "") (descr ""))
+	(lib (name "LDL1117S33R") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/LDL1117S33R.kicad_sym") (options "") (descr ""))
+	(lib (name "CSD18542KCS") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/CSD18542KCS.kicad_sym") (options "") (descr ""))
+	(lib (name "stlink-v3mods") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/stlink-v3mods.kicad_sym") (options "") (descr ""))
+	(lib (name "SMC30J18A") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/SMC30J18A.kicad_sym") (options "") (descr ""))
+)

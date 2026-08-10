@@ -1,0 +1,16 @@
+.SMC30J18A :1 ;3000 W,18 V TVS in SMC
+DIOM8059X265N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN SMC30J18A
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (SMC30J18A)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/smc30j10a.pdf)
+~!Height (2.65mm)
+~!3D_Model (SMC30J18A)
+SMC30J18A
+1.1!U 2.1!U 

@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_15881757"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-02-21-03:56:35)
+    (utime 2026-01-08-14:31:13)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SMC30J18A")
+)
+
+
+(pinAssign "ECS_15881757"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-02-21-03:56:35)
+    (utime 2026-01-08-14:31:13)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_15881757")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SMC30J18A")
+)
+
+
+(part "SMC30J18A"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-02-21-03:56:35)
+    (utime 2026-01-08-14:31:13)
+    (packageRef "SMC30J18A")
+    (pinAssignRef "ECS_15881757")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "3000 W,18 V TVS in SMC")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Manufacturer_Name" "STMicroelectronics")
+    (property "Manufacturer_Part_Number" "SMC30J18A")
+    (property "Datasheet_Link" "https://www.st.com/resource/en/datasheet/smc30j10a.pdf")
+    (property "compAreaTopHeight" 2.65)
+)
+
+

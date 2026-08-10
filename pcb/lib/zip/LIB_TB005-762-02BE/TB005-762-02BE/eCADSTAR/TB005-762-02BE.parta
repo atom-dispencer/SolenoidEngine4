@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_2078682"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-08-08-10:22:29)
+    (utime 2026-05-31-19:30:27)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "TB005-762-02BE")
+)
+
+
+(pinAssign "ECS_2078682"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-08-08-10:22:29)
+    (utime 2026-05-31-19:30:27)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_2078682")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "TB005-762-02BE")
+)
+
+
+(part "TB005-762-02BE"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-08-08-10:22:29)
+    (utime 2026-05-31-19:30:27)
+    (packageRef "TB005-762-02BE")
+    (pinAssignRef "ECS_2078682")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "TB005-762 Series - 2~24 Poles, Screw Type, Horizontal, 7.62 Pitch, 26~10 (AWG), Terminal Block Connector")
+    (property "Mouser_Part_Number" "490-TB005-762-02BE")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/TB005-762-02BE?qs=vLWxofP3U2zXv1H2wuShow%3D%3D")
+    (property "Manufacturer_Name" "Same Sky")
+    (property "Manufacturer_Part_Number" "TB005-762-02BE")
+    (property "Datasheet_Link" "https://www.sameskydevices.com/product/resource/supplyframepdf/tb005-762.pdf")
+    (property "compAreaTopHeight" 22.1)
+)
+
+

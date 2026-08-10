@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TB005-762-02BE"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2026-05-24-15:36:45)
+    (mountForm default
+        (footprintRef "TB005-762-02BE")
+        (spec "System")
+    )
+)

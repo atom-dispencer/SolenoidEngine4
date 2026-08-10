@@ -5,7 +5,7 @@
 	(uuid "7db3cf6f-5d53-48b5-b7d6-77a9a7dfa3b2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x03"
+		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -16,7 +16,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x03"
+			(property "Value" "Screw_Terminal_01x02"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -57,7 +57,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,9 +90,9 @@
 					)
 				)
 			)
-			(symbol "Screw_Terminal_01x03_1_1"
+			(symbol "Screw_Terminal_01x02_1_1"
 				(rectangle
-					(start -1.27 3.81)
+					(start -1.27 1.27)
 					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
@@ -100,18 +100,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -129,18 +117,6 @@
 				(polyline
 					(pts
 						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
 					)
 					(stroke
 						(width 0.1524)
@@ -175,17 +151,6 @@
 					)
 				)
 				(circle
-					(center 0 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
 					(center 0 0)
 					(radius 0.635)
 					(stroke
@@ -208,7 +173,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -226,7 +191,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -236,24 +201,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1423,6 +1370,180 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TB005-762-02BE:TB005-762-02BE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TB005-762-02BE"
+				(at 16.51 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TB005-762-02BE"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/supplyframepdf/tb005-762.pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "TB005-762 Series - 2~24 Poles, Screw Type, Horizontal, 7.62 Pitch, 26~10 (AWG), Terminal Block Connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "22.1"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "490-TB005-762-02BE"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/TB005-762-02BE?qs=vLWxofP3U2zXv1H2wuShow%3D%3D"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Same Sky"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TB005-762-02BE"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "TB005-762-02BE_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -1704,7 +1825,7 @@
 	)
 	(rectangle
 		(start 114.3 114.3)
-		(end 190.5 152.4)
+		(end 190.5 158.75)
 		(stroke
 			(width 0)
 			(type default)
@@ -1794,7 +1915,7 @@
 	)
 	(text "Including reverse-polarity\nprotection diodes"
 		(exclude_from_sim no)
-		(at 175.26 122.682 0)
+		(at 171.45 121.412 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1849,18 +1970,6 @@
 		(uuid "044fe134-8cc5-4ece-8941-c15a83b65583")
 	)
 	(junction
-		(at 153.67 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0450b862-c98c-4dec-b7ec-76a4c5c5553c")
-	)
-	(junction
-		(at 153.67 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2da37572-064c-450d-b3be-6115e5f5182a")
-	)
-	(junction
 		(at 82.55 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1885,6 +1994,18 @@
 		(uuid "645d41c8-c0c5-4e51-8a95-fa1b9b09b9c5")
 	)
 	(junction
+		(at 149.86 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7715b72c-c590-4957-9a23-05ab4f7cb37f")
+	)
+	(junction
+		(at 76.2 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa0e3c80-c455-4f61-872d-efba63cf4335")
+	)
+	(junction
 		(at 57.15 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1900,7 +2021,13 @@
 		(at 139.7 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c6f8aa94-09c2-4b07-8db8-6578dfd3519d")
+		(uuid "e16e0fec-058f-41bf-847c-c3274eeeb131")
+	)
+	(junction
+		(at 149.86 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1ea8cde-b378-4c14-b41e-71c64dd9c28d")
 	)
 	(no_connect
 		(at 215.9 39.37)
@@ -1931,6 +2058,16 @@
 			(type default)
 		)
 		(uuid "0023c904-8781-42cb-8fef-323266d0ea10")
+	)
+	(wire
+		(pts
+			(xy 139.7 91.44) (xy 152.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0361a8c6-342b-4f7f-b57c-ffff98a0c030")
 	)
 	(wire
 		(pts
@@ -1974,17 +2111,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 120.65) (xy 153.67 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d0e2f69-e31c-482a-94a2-61ee40fe446a")
-	)
-	(wire
-		(pts
-			(xy 120.65 133.35) (xy 123.19 133.35)
+			(xy 116.84 135.89) (xy 119.38 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2011,6 +2138,16 @@
 			(type default)
 		)
 		(uuid "10feb2f2-be5a-48f3-929d-1bdec8d6ffb8")
+	)
+	(wire
+		(pts
+			(xy 76.2 158.75) (xy 76.2 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13237ecd-e205-4217-9c67-7a5360b6feb8")
 	)
 	(wire
 		(pts
@@ -2084,7 +2221,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 133.35) (xy 158.75 133.35)
+			(xy 127 135.89) (xy 154.94 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2104,7 +2241,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 120.65) (xy 153.67 120.65)
+			(xy 139.7 123.19) (xy 149.86 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2142,16 +2279,6 @@
 		)
 		(uuid "339754b7-e9a7-4de0-b132-e6319d4a5575")
 	)
-	(wire
-		(pts
-			(xy 152.4 91.44) (xy 139.7 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34554431-6231-404b-8164-190ab9731891")
-	)
 	(polyline
 		(pts
 			(xy 63.5 152.4) (xy 63.5 156.21)
@@ -2161,16 +2288,6 @@
 			(type default)
 		)
 		(uuid "35a3af85-e08c-4ebb-8f78-64e5ae74ceca")
-	)
-	(wire
-		(pts
-			(xy 153.67 135.89) (xy 153.67 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36606916-f23e-47eb-b5d4-0446c92fedf2")
 	)
 	(wire
 		(pts
@@ -2214,13 +2331,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 135.89) (xy 158.75 135.89)
+			(xy 149.86 123.19) (xy 149.86 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42b24160-7995-4632-aec0-2e7dfb56ee8d")
+		(uuid "42565b11-574d-4c29-a1eb-c4d64ad93fe7")
 	)
 	(wire
 		(pts
@@ -2242,6 +2359,16 @@
 		)
 		(uuid "45e64f94-c558-44b4-ae92-b07662aba7f6")
 	)
+	(wire
+		(pts
+			(xy 149.86 142.24) (xy 154.94 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4654bc9d-17d7-43a4-8ba7-c837c2be30c4")
+	)
 	(polyline
 		(pts
 			(xy 107.95 86.36) (xy 139.7 86.36)
@@ -2254,7 +2381,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 120.65) (xy 156.21 120.65)
+			(xy 149.86 123.19) (xy 152.4 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2314,7 +2441,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 120.65) (xy 135.89 120.65)
+			(xy 129.54 151.13) (xy 154.94 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f43c01-46b6-465a-ac24-ac80f7816fc8")
+	)
+	(wire
+		(pts
+			(xy 116.84 123.19) (xy 132.08 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2331,16 +2468,6 @@
 			(type default)
 		)
 		(uuid "634eb30c-74bb-4c93-a8c3-1ef9f2b68bbc")
-	)
-	(wire
-		(pts
-			(xy 133.35 135.89) (xy 153.67 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67348022-cced-434e-9c8b-c734f010210d")
 	)
 	(wire
 		(pts
@@ -2464,7 +2591,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 162.56) (xy 69.85 162.56)
+			(xy 76.2 161.29) (xy 69.85 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2534,7 +2661,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 146.05) (xy 158.75 146.05)
+			(xy 129.54 142.24) (xy 149.86 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2544,7 +2671,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 130.81) (xy 158.75 130.81)
+			(xy 152.4 133.35) (xy 154.94 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2554,7 +2681,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 148.59) (xy 158.75 148.59)
+			(xy 129.54 144.78) (xy 154.94 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2654,6 +2781,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 133.35) (xy 149.86 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54fac54-2ce1-450d-9e14-87cebb826f52")
+	)
+	(wire
+		(pts
 			(xy 139.7 99.06) (xy 139.7 101.6)
 		)
 		(stroke
@@ -2714,7 +2851,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 130.81) (xy 156.21 120.65)
+			(xy 152.4 133.35) (xy 152.4 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2774,7 +2911,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 162.56) (xy 69.85 161.29)
+			(xy 69.85 161.29) (xy 69.85 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2824,7 +2961,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 137.16) (xy 120.65 133.35)
+			(xy 116.84 139.7) (xy 116.84 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3014,7 +3151,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 143.51) (xy 158.75 143.51)
+			(xy 129.54 153.67) (xy 154.94 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3113,14 +3250,14 @@
 		(uuid "0bfabd2f-d1a1-4667-9b6e-88d40f90e9d2")
 	)
 	(label "MCU_RESOLVER_MISO"
-		(at 133.35 146.05 0)
+		(at 129.54 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1646c2dd-fc47-4ced-9d9c-4ec3f09bccaa")
+		(uuid "104360ba-20f2-4893-986a-d74936f8b78b")
 	)
 	(label "MCU_SOL_PWM"
 		(at 88.9 39.37 0)
@@ -3183,7 +3320,7 @@
 		(uuid "52436514-7c68-4f63-a861-c88d8c135f35")
 	)
 	(label "MCU_3V3"
-		(at 120.65 120.65 0)
+		(at 116.84 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3193,7 +3330,7 @@
 		(uuid "5a53ffa2-c6ae-40e2-a4aa-aa47d80cbd31")
 	)
 	(label "MCU_RESOLVER_CLK"
-		(at 133.35 148.59 0)
+		(at 129.54 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3232,16 +3369,6 @@
 		)
 		(uuid "8628ee2d-92d4-423b-a0da-316e5965c3f2")
 	)
-	(label "MCU_RESOLVER_MOSI"
-		(at 133.35 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b4a80ce-3da1-4c67-a2a9-c6a1c904e7e6")
-	)
 	(label "MCU_SOL_EN_4"
 		(at 97.79 120.65 180)
 		(effects
@@ -3251,6 +3378,16 @@
 			(justify right bottom)
 		)
 		(uuid "8e1f5507-fd6f-4e05-be4f-5c5a70896ba3")
+	)
+	(label "MCU_RESOLVER_CS"
+		(at 129.54 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90c6aa2d-bd96-4be4-9955-2b73c5573614")
 	)
 	(label "MCU_ENG_THROTTLE"
 		(at 215.9 62.23 180)
@@ -3271,16 +3408,6 @@
 			(justify left bottom)
 		)
 		(uuid "a455f5d5-e9d2-479d-86ee-a8646f67b073")
-	)
-	(label "MCU_RESOLVER_CS"
-		(at 133.35 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b3c043af-753f-46ba-9494-aaceb43ef0a2")
 	)
 	(label "MCU_SOL_EN_1"
 		(at 59.69 95.25 180)
@@ -3321,6 +3448,16 @@
 			(justify right bottom)
 		)
 		(uuid "ea4aee98-2791-4c52-b00e-392f8a5e807d")
+	)
+	(label "MCU_RESOLVER_MOSI"
+		(at 129.54 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4c8a4ce-ebdf-4218-b8d2-f0725e5fb0ac")
 	)
 	(label "MCU_NRST"
 		(at 165.1 91.44 0)
@@ -3529,7 +3666,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 71.628 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -3661,7 +3798,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 127 133.35 0)
+		(at 123.19 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3672,7 +3809,7 @@
 		(fields_autoplaced yes)
 		(uuid "09318b7a-41bd-44b4-966b-886fbe4ff162")
 		(property "Reference" "D2"
-			(at 127 127 0)
+			(at 123.19 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3682,7 +3819,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 127 129.54 0)
+			(at 123.19 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3691,8 +3828,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 127 133.35 0)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 123.19 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3703,7 +3840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 133.35 0)
+			(at 123.19 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3714,7 +3851,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 127 133.35 0)
+			(at 123.19 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3725,7 +3862,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 127 133.35 0)
+			(at 123.19 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3736,7 +3873,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 127 133.35 0)
+			(at 123.19 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3795,7 +3932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 147.828 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -3923,7 +4060,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 139.7 95.25 0)
+		(at 177.8 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3932,9 +4069,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1fd4b9ab-d296-4eec-80a1-05c6e9cb7d38")
-		(property "Reference" "C6"
-			(at 143.51 93.9799 0)
+		(uuid "1644a8d5-9c88-48ac-be14-b13ed1821155")
+		(property "Reference" "C98"
+			(at 181.61 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3945,7 +4082,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 143.51 96.5199 0)
+			(at 181.61 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3955,8 +4092,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 140.6652 99.06 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 178.7652 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3967,7 +4104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 95.25 0)
+			(at 177.8 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3978,7 +4115,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 139.7 95.25 0)
+			(at 177.8 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3989,100 +4126,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "936b2e7f-3699-4500-b0bc-6addbfbd49bb")
+			(uuid "bb5a69a6-3bf6-49e2-9a31-aa83d5916921")
 		)
 		(pin "1"
-			(uuid "1ff53916-e7ce-434a-bb02-6e8f5bb8a87c")
+			(uuid "2eb8e0b6-1d3e-4e7b-9ee2-df23e05e45c1")
 		)
 		(instances
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/445fceed-3e3b-4e60-994e-ddd1e4b7fdd0"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 81.28 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28436509-3f68-40fa-a571-8bf1aec0fb63")
-		(property "Reference" "J14"
-			(at 83.82 163.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x03"
-			(at 83.82 166.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 81.28 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "cf770751-fec5-41f5-9ca8-08d04219771b")
-		)
-		(pin "1"
-			(uuid "8e8ffe37-8c9e-4486-ad89-56397d44fb16")
-		)
-		(pin "2"
-			(uuid "07ebad4e-0cbb-432f-b2ad-0b824c5bf0e2")
-		)
-		(instances
-			(project "SolenoidEngine4"
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/445fceed-3e3b-4e60-994e-ddd1e4b7fdd0"
-					(reference "J14")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -4161,6 +4213,150 @@
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/445fceed-3e3b-4e60-994e-ddd1e4b7fdd0"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TB005-762-02BE:TB005-762-02BE")
+		(at 154.94 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32343945-4d45-488a-b719-344ce22c4391")
+		(property "Reference" "J17"
+			(at 171.45 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TB005-762-02BE"
+			(at 171.45 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:TB005-762-02BE"
+			(at 171.45 237.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/supplyframepdf/tb005-762.pdf"
+			(at 171.45 337.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "TB005-762 Series - 2~24 Poles, Screw Type, Horizontal, 7.62 Pitch, 26~10 (AWG), Terminal Block Connector"
+			(at 154.94 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "22.1"
+			(at 171.45 537.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "490-TB005-762-02BE"
+			(at 171.45 637.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/TB005-762-02BE?qs=vLWxofP3U2zXv1H2wuShow%3D%3D"
+			(at 171.45 737.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Same Sky"
+			(at 171.45 837.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TB005-762-02BE"
+			(at 171.45 937.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "6a6b6ad8-76c4-4d7b-84d7-5ee187f9939d")
+		)
+		(pin "1"
+			(uuid "86791e62-cc5a-4a25-ab1f-1b7e05cd9fba")
+		)
+		(instances
+			(project "SolenoidEngine4"
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/445fceed-3e3b-4e60-994e-ddd1e4b7fdd0"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -4328,7 +4524,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 139.7 120.65 0)
+		(at 135.89 123.19 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4339,7 +4535,7 @@
 		(dnp no)
 		(uuid "3b825f4b-498c-4d84-9d44-4c2578886e15")
 		(property "Reference" "D1"
-			(at 139.7 127 0)
+			(at 135.89 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4349,7 +4545,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 139.7 124.46 0)
+			(at 135.89 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4358,8 +4554,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 139.7 120.65 0)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 135.89 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4370,7 +4566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 120.65 0)
+			(at 135.89 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4381,7 +4577,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 139.7 120.65 0)
+			(at 135.89 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4392,7 +4588,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 139.7 120.65 0)
+			(at 135.89 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4403,7 +4599,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 139.7 120.65 0)
+			(at 135.89 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4511,8 +4707,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 163.83 146.05 0)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 81.28 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4520,32 +4716,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4323bd21-624f-4c80-af0e-5c48ad01ac73")
-		(property "Reference" "J16"
-			(at 166.37 144.7799 0)
+		(uuid "429d2c7b-dce7-4d63-9fc1-653d814613dd")
+		(property "Reference" "J12"
+			(at 93.98 164.592 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x03"
-			(at 166.37 147.3199 0)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 93.98 167.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 163.83 146.05 0)
+		(property "Footprint" "footprints:TB005-762-02BE"
+			(at 81.28 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4556,7 +4749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 146.05 0)
+			(at 81.28 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4566,8 +4759,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 163.83 146.05 0)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 81.28 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4576,20 +4769,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "6ce4c77d-dc8e-4939-90b9-cc31faf01bf7")
 		)
 		(pin "1"
-			(uuid "8f01d2a5-ec4b-4188-b2aa-400488157a82")
+			(uuid "d375b49f-8993-416a-b78d-97f0f1f49142")
 		)
-		(pin "3"
-			(uuid "18b55250-efbb-4ab4-b1dd-b599b2fd8d81")
+		(pin "2"
+			(uuid "c897339b-1be2-486f-a89b-5250e9839c1e")
 		)
 		(instances
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/445fceed-3e3b-4e60-994e-ddd1e4b7fdd0"
-					(reference "J16")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -4597,7 +4787,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 69.85 161.29 0)
+		(at 69.85 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4608,7 +4798,7 @@
 		(fields_autoplaced yes)
 		(uuid "4597d9e1-71f8-43b3-8bd7-03110cd71611")
 		(property "Reference" "#PWR043"
-			(at 69.85 165.1 0)
+			(at 69.85 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4619,7 +4809,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 69.85 156.21 0)
+			(at 69.85 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4629,7 +4819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 161.29 0)
+			(at 69.85 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4640,7 +4830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 161.29 0)
+			(at 69.85 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4651,7 +4841,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 69.85 161.29 0)
+			(at 69.85 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4871,7 +5061,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 140.462 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -4914,6 +5104,88 @@
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/445fceed-3e3b-4e60-994e-ddd1e4b7fdd0"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 57.15 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f15dc06-f658-4cf0-9893-342cb640ad22")
+		(property "Reference" "C100"
+			(at 60.96 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 60.96 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 58.1152 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.15 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "98efd413-05dd-48e6-9690-3f36d7521575")
+		)
+		(pin "1"
+			(uuid "9cf8242b-aec8-4def-ae78-6403e5dc6591")
+		)
+		(instances
+			(project "SolenoidEngine4"
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/445fceed-3e3b-4e60-994e-ddd1e4b7fdd0"
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -5244,6 +5516,150 @@
 		)
 	)
 	(symbol
+		(lib_id "TB005-762-02BE:TB005-762-02BE")
+		(at 154.94 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d839c79-5af4-4389-b6a5-020decc2fd9b")
+		(property "Reference" "J18"
+			(at 171.45 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TB005-762-02BE"
+			(at 171.45 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:TB005-762-02BE"
+			(at 171.45 228.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/supplyframepdf/tb005-762.pdf"
+			(at 171.45 328.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "TB005-762 Series - 2~24 Poles, Screw Type, Horizontal, 7.62 Pitch, 26~10 (AWG), Terminal Block Connector"
+			(at 154.94 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "22.1"
+			(at 171.45 528.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "490-TB005-762-02BE"
+			(at 171.45 628.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/TB005-762-02BE?qs=vLWxofP3U2zXv1H2wuShow%3D%3D"
+			(at 171.45 728.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Same Sky"
+			(at 171.45 828.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TB005-762-02BE"
+			(at 171.45 928.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "f460d16a-5c4e-486e-96ee-5bc8f394eb28")
+		)
+		(pin "1"
+			(uuid "81ca98db-b5c3-4101-aff4-cfeab42c806d")
+		)
+		(instances
+			(project "SolenoidEngine4"
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/445fceed-3e3b-4e60-994e-ddd1e4b7fdd0"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 78.74 101.6 0)
 		(mirror x)
@@ -5277,7 +5693,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 76.962 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -5564,88 +5980,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 57.15 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7aa95314-8f0d-4cba-ba65-1c975a811944")
-		(property "Reference" "C9"
-			(at 60.96 173.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 60.96 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.1152 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 57.15 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "767152a0-6a28-43e5-b30c-ac01954a7cfc")
-		)
-		(pin "1"
-			(uuid "e3080806-3dbe-4963-97e1-55e0089dfe5d")
-		)
-		(instances
-			(project "SolenoidEngine4"
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/445fceed-3e3b-4e60-994e-ddd1e4b7fdd0"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 113.03 46.99 0)
 		(unit 1)
@@ -5761,7 +6095,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 38.862 127 90)
 			(hide yes)
 			(show_name no)
@@ -5804,6 +6138,85 @@
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/445fceed-3e3b-4e60-994e-ddd1e4b7fdd0"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 81.28 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88057403-517d-4802-9894-fe29c9e1108e")
+		(property "Reference" "J14"
+			(at 93.98 158.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 93.98 160.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:TB005-762-02BE"
+			(at 81.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 81.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7302e7b-da30-42c6-8e92-7098bf210e66")
+		)
+		(pin "2"
+			(uuid "00f0a759-b253-4e71-867f-36c4dc7a234a")
+		)
+		(instances
+			(project "SolenoidEngine4"
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/445fceed-3e3b-4e60-994e-ddd1e4b7fdd0"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -6085,7 +6498,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.228 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -6247,7 +6660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 63.5 163.322 90)
 			(hide yes)
 			(show_name no)
@@ -6378,6 +6791,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 139.7 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fae5684-b3f5-4f70-a325-23be60f4b130")
+		(property "Reference" "C99"
+			(at 143.51 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 143.51 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 140.6652 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 139.7 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0fdb0b6e-e3ae-4a56-9d93-fcf49655db46")
+		)
+		(pin "1"
+			(uuid "0880ef07-92cc-4f77-a1f4-942eb60c96bf")
+		)
+		(instances
+			(project "SolenoidEngine4"
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/445fceed-3e3b-4e60-994e-ddd1e4b7fdd0"
+					(reference "C99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 82.55 107.95 0)
 		(unit 1)
@@ -6456,88 +6951,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 177.8 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a475b22e-9531-48ad-a9fb-a7c0983940a0")
-		(property "Reference" "C7"
-			(at 181.61 93.9799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 181.61 96.5199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 178.7652 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 177.8 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "254959c9-c792-44c2-89ad-f3330f4f3880")
-		)
-		(pin "1"
-			(uuid "eb0891dc-10a7-4a01-bd38-42326126a83c")
-		)
-		(instances
-			(project "SolenoidEngine4"
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/445fceed-3e3b-4e60-994e-ddd1e4b7fdd0"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 40.64 101.6 0)
 		(mirror x)
@@ -6571,7 +6984,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 38.862 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -6614,6 +7027,150 @@
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/445fceed-3e3b-4e60-994e-ddd1e4b7fdd0"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TB005-762-02BE:TB005-762-02BE")
+		(at 154.94 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a949d804-cf81-4e59-bbb5-5eaf5a38c390")
+		(property "Reference" "J16"
+			(at 171.45 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TB005-762-02BE"
+			(at 171.45 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:TB005-762-02BE"
+			(at 171.45 246.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/supplyframepdf/tb005-762.pdf"
+			(at 171.45 346.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "TB005-762 Series - 2~24 Poles, Screw Type, Horizontal, 7.62 Pitch, 26~10 (AWG), Terminal Block Connector"
+			(at 154.94 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "22.1"
+			(at 171.45 546.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "490-TB005-762-02BE"
+			(at 171.45 646.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/TB005-762-02BE?qs=vLWxofP3U2zXv1H2wuShow%3D%3D"
+			(at 171.45 746.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Same Sky"
+			(at 171.45 846.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TB005-762-02BE"
+			(at 171.45 946.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "36de8315-8d64-4547-bb61-a1e8c8a9ec87")
+		)
+		(pin "1"
+			(uuid "cc28c206-94b0-4283-8cd0-9124929916e9")
+		)
+		(instances
+			(project "SolenoidEngine4"
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/445fceed-3e3b-4e60-994e-ddd1e4b7fdd0"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -6703,7 +7260,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 153.67 127 0)
+		(at 149.86 129.54 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6714,7 +7271,7 @@
 		(dnp no)
 		(uuid "b1fdcf33-9434-4700-aaa9-96331831e0d8")
 		(property "Reference" "R49"
-			(at 151.13 125.7299 0)
+			(at 147.32 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6725,7 +7282,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 151.13 128.2699 0)
+			(at 147.32 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6735,8 +7292,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 155.448 127 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 151.638 129.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6747,7 +7304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 127 0)
+			(at 149.86 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6758,7 +7315,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 153.67 127 0)
+			(at 149.86 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6817,7 +7374,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 84.328 127 90)
 			(hide yes)
 			(show_name no)
@@ -6944,91 +7501,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 163.83 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9009951-4eb9-4148-8a7d-08515fcc9356")
-		(property "Reference" "J15"
-			(at 166.37 132.0799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x03"
-			(at 166.37 134.6199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 163.83 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9f5f0415-3165-49be-a5f6-71e01debde05")
-		)
-		(pin "1"
-			(uuid "4d0f3548-c2aa-4ffd-9e61-39ada6c64bff")
-		)
-		(pin "3"
-			(uuid "2ce6fa79-2347-4b14-9d19-5d76300bd240")
-		)
-		(instances
-			(project "SolenoidEngine4"
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/445fceed-3e3b-4e60-994e-ddd1e4b7fdd0"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 82.55 101.6 180)
 		(unit 1)
@@ -7062,7 +7534,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 84.328 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -7112,7 +7584,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 137.16 0)
+		(at 116.84 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7123,7 +7595,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd5040e9-ebfc-4827-abc0-fafdc56dc271")
 		(property "Reference" "#PWR059"
-			(at 120.65 143.51 0)
+			(at 116.84 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7134,7 +7606,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 142.24 0)
+			(at 116.84 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7144,7 +7616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 137.16 0)
+			(at 116.84 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7155,7 +7627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 137.16 0)
+			(at 116.84 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7166,7 +7638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 137.16 0)
+			(at 116.84 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7462,7 +7934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-20N"
+		(property "Footprint" "footprints:SOP65P640X120-20N"
 			(at 175.26 134.29 0)
 			(hide yes)
 			(show_name no)
@@ -7660,7 +8132,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 76.962 127 90)
 			(hide yes)
 			(show_name no)
@@ -7742,7 +8214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 127.9652 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8148,7 +8620,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.228 127 90)
 			(hide yes)
 			(show_name no)
@@ -8198,22 +8670,23 @@
 	)
 	(group ""
 		(uuid "1b195289-4898-4853-bb2f-f9efef163094")
-		(members "0450b862-c98c-4dec-b7ec-76a4c5c5553c" "09318b7a-41bd-44b4-966b-886fbe4ff162"
-			"0d0e2f69-e31c-482a-94a2-61ee40fe446a" "0d1b23fd-965e-4007-8fcb-5d95136d46d8"
-			"162041db-9e8e-44f3-af79-98e13a9ed205" "1646c2dd-fc47-4ced-9d9c-4ec3f09bccaa"
+		(members "09318b7a-41bd-44b4-966b-886fbe4ff162" "0d1b23fd-965e-4007-8fcb-5d95136d46d8"
+			"104360ba-20f2-4893-986a-d74936f8b78b" "162041db-9e8e-44f3-af79-98e13a9ed205"
 			"1f2528f8-2451-4759-acb4-64c143e8843f" "27217b8f-b24a-422e-b0f0-927db35b8e52"
-			"2da37572-064c-450d-b3be-6115e5f5182a" "36606916-f23e-47eb-b5d4-0446c92fedf2"
-			"3b825f4b-498c-4d84-9d44-4c2578886e15" "42b24160-7995-4632-aec0-2e7dfb56ee8d"
-			"4323bd21-624f-4c80-af0e-5c48ad01ac73" "4b5332cb-d31a-4fa5-b699-805b1568a8f1"
-			"4ce3785a-44bf-412b-8549-66863cdb29a6" "5a53ffa2-c6ae-40e2-a4aa-aa47d80cbd31"
-			"60a5872c-d2d6-41d3-a9ce-f2bf4f23e482" "631f6836-33a1-4ba0-bb6a-28182510542f"
-			"67348022-cced-434e-9c8b-c734f010210d" "8b4a80ce-3da1-4c67-a2a9-c6a1c904e7e6"
-			"9248e73a-3f3e-4ada-a505-8a41d8a8d26e" "9284eda5-132d-4147-bf3a-c4063e0b0a44"
-			"9357e062-174c-4378-adbc-f74ddfa341a4" "ac145d12-443a-40a3-917e-b96537c8558e"
-			"b1fdcf33-9434-4700-aaa9-96331831e0d8" "b3c043af-753f-46ba-9494-aaceb43ef0a2"
-			"b7422720-19c8-4b8e-ae6f-5d39490d9c08" "b9009951-4eb9-4148-8a7d-08515fcc9356"
-			"bd5040e9-ebfc-4827-abc0-fafdc56dc271" "c99650af-d1c8-49c9-bd5f-7aa6f54f2aaf"
-			"f26bf31d-2093-4336-8359-f2610341e8eb" "fb07863a-31e5-4bf9-91d1-4db2fb6f56d7"
+			"32343945-4d45-488a-b719-344ce22c4391" "3b825f4b-498c-4d84-9d44-4c2578886e15"
+			"42565b11-574d-4c29-a1eb-c4d64ad93fe7" "4654bc9d-17d7-43a4-8ba7-c837c2be30c4"
+			"4b5332cb-d31a-4fa5-b699-805b1568a8f1" "4ce3785a-44bf-412b-8549-66863cdb29a6"
+			"5a53ffa2-c6ae-40e2-a4aa-aa47d80cbd31" "60a5872c-d2d6-41d3-a9ce-f2bf4f23e482"
+			"62f43c01-46b6-465a-ac24-ac80f7816fc8" "631f6836-33a1-4ba0-bb6a-28182510542f"
+			"6d839c79-5af4-4389-b6a5-020decc2fd9b" "7715b72c-c590-4957-9a23-05ab4f7cb37f"
+			"90c6aa2d-bd96-4be4-9955-2b73c5573614" "9248e73a-3f3e-4ada-a505-8a41d8a8d26e"
+			"9284eda5-132d-4147-bf3a-c4063e0b0a44" "9357e062-174c-4378-adbc-f74ddfa341a4"
+			"a54fac54-2ce1-450d-9e14-87cebb826f52" "a949d804-cf81-4e59-bbb5-5eaf5a38c390"
+			"ac145d12-443a-40a3-917e-b96537c8558e" "b1fdcf33-9434-4700-aaa9-96331831e0d8"
+			"b7422720-19c8-4b8e-ae6f-5d39490d9c08" "bd5040e9-ebfc-4827-abc0-fafdc56dc271"
+			"c99650af-d1c8-49c9-bd5f-7aa6f54f2aaf" "f1ea8cde-b378-4c14-b41e-71c64dd9c28d"
+			"f26bf31d-2093-4336-8359-f2610341e8eb" "f4c8a4ce-ebdf-4218-b8d2-f0725e5fb0ac"
+			"fb07863a-31e5-4bf9-91d1-4db2fb6f56d7"
 		)
 	)
 	(group ""
@@ -8250,8 +8723,8 @@
 	)
 	(group ""
 		(uuid "887d1ee2-9728-43da-81cf-d3fbb2d83bd0")
-		(members "5f6d04cc-7bf5-4790-aade-c603a78c7226" "772bc935-4e72-472a-adb3-e75cef4bb117"
-			"7d933424-0824-487e-a1c1-00e5d301f990" "a475b22e-9531-48ad-a9fb-a7c0983940a0"
+		(members "1644a8d5-9c88-48ac-be14-b13ed1821155" "5f6d04cc-7bf5-4790-aade-c603a78c7226"
+			"772bc935-4e72-472a-adb3-e75cef4bb117" "7d933424-0824-487e-a1c1-00e5d301f990"
 			"c0164d23-6c08-4a2a-acd6-349247137eb0" "c568f1cd-377d-4b6b-9ed0-71d1cc6a4a35"
 			"dc8f3e11-06fe-4e16-a3f6-6aeed2e483a3" "f9a79eb2-d5bf-48f6-918b-ca8742a12a5d"
 		)
@@ -8270,31 +8743,32 @@
 	)
 	(group ""
 		(uuid "afd9005d-1e5a-41a1-b324-9c74ad24cca9")
-		(members "0b0c314c-840b-44a0-bfda-c386b72ed637" "1fd4b9ab-d296-4eec-80a1-05c6e9cb7d38"
-			"2a780845-6e27-4f70-855f-8a18fc3320bc" "34554431-6231-404b-8164-190ab9731891"
-			"39139bc6-edff-4304-b76e-bbf54c2b88f6" "463d85be-c736-4bb4-9bcb-ae7a61020317"
-			"4a8fd30c-1ca4-49c5-b526-1f42aeae51a7" "765591f0-f627-49cf-a3a1-cd4227104210"
-			"894eb5fd-6479-46ca-820c-3ab815a3fed6" "90867c03-21a2-4a05-9af6-d8b92f1830f1"
+		(members "0361a8c6-342b-4f7f-b57c-ffff98a0c030" "0b0c314c-840b-44a0-bfda-c386b72ed637"
+			"2a780845-6e27-4f70-855f-8a18fc3320bc" "39139bc6-edff-4304-b76e-bbf54c2b88f6"
+			"463d85be-c736-4bb4-9bcb-ae7a61020317" "4a8fd30c-1ca4-49c5-b526-1f42aeae51a7"
+			"765591f0-f627-49cf-a3a1-cd4227104210" "894eb5fd-6479-46ca-820c-3ab815a3fed6"
+			"90867c03-21a2-4a05-9af6-d8b92f1830f1" "9fae5684-b3f5-4f70-a325-23be60f4b130"
 			"a8bbb636-e2ba-44ae-a7fa-6ef10d797fd3" "ace190ec-4f93-43bb-b9c8-28124dc9542e"
-			"c6f8aa94-09c2-4b07-8db8-6578dfd3519d" "ccba20c7-6d7e-4019-b6c9-9e822739641b"
-			"d217227e-388b-46d2-9ea6-6a5ddcd78f00" "dab70c07-595c-44fb-8e8b-64b54d8d7786"
-			"dcb4fbd0-47ae-4623-aa2a-61805e4642fe"
+			"ccba20c7-6d7e-4019-b6c9-9e822739641b" "d217227e-388b-46d2-9ea6-6a5ddcd78f00"
+			"dab70c07-595c-44fb-8e8b-64b54d8d7786" "dcb4fbd0-47ae-4623-aa2a-61805e4642fe"
+			"e16e0fec-058f-41bf-847c-c3274eeeb131"
 		)
 	)
 	(group ""
 		(uuid "ba470aec-12bf-440b-bd40-cf42343c7558")
-		(members "01310d0c-0be7-4581-8e7a-fa44f0a58582" "142a0709-1e30-43d1-b6ff-ad79be63d8a1"
-			"22a04be5-7be1-4ed2-b2b9-a01202669ddf" "28436509-3f68-40fa-a571-8bf1aec0fb63"
+		(members "01310d0c-0be7-4581-8e7a-fa44f0a58582" "13237ecd-e205-4217-9c67-7a5360b6feb8"
+			"142a0709-1e30-43d1-b6ff-ad79be63d8a1" "22a04be5-7be1-4ed2-b2b9-a01202669ddf"
 			"339754b7-e9a7-4de0-b132-e6319d4a5575" "35a3af85-e08c-4ebb-8f78-64e5ae74ceca"
-			"38ecf66b-253a-44d9-bc15-94ec86236dd7" "4597d9e1-71f8-43b3-8bd7-03110cd71611"
+			"38ecf66b-253a-44d9-bc15-94ec86236dd7" "429d2c7b-dce7-4d63-9fc1-653d814613dd"
+			"4597d9e1-71f8-43b3-8bd7-03110cd71611" "4f15dc06-f658-4cf0-9893-342cb640ad22"
 			"5545b973-aa75-4b55-b69a-3e0bb58402f2" "734ea8b2-f640-43e5-96b8-b4281ebd5fc2"
-			"7aa95314-8f0d-4cba-ba65-1c975a811944" "80eadaee-a269-427f-9b1f-d6a0ad862299"
-			"817e9a31-fbb2-4dc6-9a63-0cf7d298a472" "8f02cf2b-7639-402e-8f26-2b1d9fa63326"
+			"80eadaee-a269-427f-9b1f-d6a0ad862299" "817e9a31-fbb2-4dc6-9a63-0cf7d298a472"
+			"88057403-517d-4802-9894-fe29c9e1108e" "8f02cf2b-7639-402e-8f26-2b1d9fa63326"
 			"940be6e6-1b3f-4a41-a0af-0e28027dd076" "976f3b02-8234-4deb-a6f2-0e5a9c0337e6"
 			"99755573-372a-4bf4-bbe9-70f8d5cae5eb" "9de9c953-9921-4bc0-89e5-11c1aea76108"
-			"a20b02bf-427b-42e1-8b5c-25ce0cc1d0f4" "ba373486-b71c-4b0c-a2bb-df3ba7e68970"
-			"c0367c2e-76fc-4e26-a638-c9f37f7ace18" "c200ce6c-eddd-49dc-b0a2-37cae9731078"
-			"eeb7dbbd-51ce-4473-aa70-996332ae5047"
+			"a20b02bf-427b-42e1-8b5c-25ce0cc1d0f4" "aa0e3c80-c455-4f61-872d-efba63cf4335"
+			"ba373486-b71c-4b0c-a2bb-df3ba7e68970" "c0367c2e-76fc-4e26-a638-c9f37f7ace18"
+			"c200ce6c-eddd-49dc-b0a2-37cae9731078" "eeb7dbbd-51ce-4473-aa70-996332ae5047"
 		)
 	)
 	(group ""

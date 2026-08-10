@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SMC30J18A"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-06-10:28:01)
+    (mountForm default
+        (footprintRef "DIOM8059X265N")
+        (spec "System")
+    )
+)

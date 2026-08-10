@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TB005_762_02BE'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Same Sky", "TB005-762-02BE" (!) = "", "TB005-762-02BE", "Other", "490-TB005-762-02BE", "https://www.mouser.co.uk/ProductDetail/Same-Sky/TB005-762-02BE?qs=vLWxofP3U2zXv1H2wuShow%3D%3D", "TB005-762 Series - 2~24 Poles, Screw Type, Horizontal, 7.62 Pitch, 26~10 (AWG), Terminal Block Connector", "https://www.sameskydevices.com/product/resource/supplyframepdf/tb005-762.pdf", "22.1 mm"
+END_PART
+
+END.

@@ -664,7 +664,7 @@
         "uuid": "8f70d105-0009-40db-8e47-cace6f06f216"
       }
     ],
-    "used_designators": "220u5,100n5",
+    "used_designators": "U1,220u1,100n1,D3-4,D6,D8,D12-14,C118,C121-128,J11-12,J14-18",
     "variants": []
   },
   "sheets": [

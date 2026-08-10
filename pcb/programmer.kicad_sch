@@ -5,7 +5,261 @@
 	(uuid "412652a1-0371-43b6-88c3-571e81396230")
 	(paper "A4")
 	(lib_symbols
-		(symbol "AMS_26_Symbols:STLINK-V3MODS"
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "stlink-v3mods:STLINK-V3MODS"
 			(pin_names
 				(offset 1.016)
 			)
@@ -710,260 +964,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Voltage tap to \nmonitor STM32 \nsupply voltage"
 		(exclude_from_sim no)
@@ -1307,6 +1307,422 @@
 		(uuid "e9fe2277-0e44-4159-97f7-3d1b2eac2c6f")
 	)
 	(symbol
+		(lib_id "stlink-v3mods:STLINK-V3MODS")
+		(at 149.86 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2548c910-a92f-406c-a21a-f87b1c2ebfef")
+		(property "Reference" "U1"
+			(at 149.86 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STLINK-V3MODS"
+			(at 149.86 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:STLINK_V3MODS"
+			(at 149.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "1"
+			(at 149.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 149.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "ST Microelectronics"
+			(at 149.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "7676fff5-ea80-4cbf-8941-627a3aaa879b")
+		)
+		(pin "29"
+			(uuid "f027ec97-e762-4bec-9af8-d256de17e19d")
+		)
+		(pin "9"
+			(uuid "0ec0a877-2125-423e-a84d-4b68c993dde2")
+		)
+		(pin "31"
+			(uuid "dea09039-dc0f-4373-a221-5ceb70b77925")
+		)
+		(pin "26"
+			(uuid "80ad812e-377b-41da-8b06-a797c745c192")
+		)
+		(pin "22"
+			(uuid "1fff2659-ddd7-4344-9573-1a433721198f")
+		)
+		(pin "24"
+			(uuid "7296a53c-9c6f-4c2d-8587-3254bbea3c98")
+		)
+		(pin "32"
+			(uuid "a12cfebe-8504-4c13-afe7-f49df19ad568")
+		)
+		(pin "17"
+			(uuid "245fccb5-8730-4121-9506-38b93d9528c3")
+		)
+		(pin "19"
+			(uuid "36552821-5be9-4d94-bd1c-c5252bd7fa7b")
+		)
+		(pin "13"
+			(uuid "40e6ac85-0373-4f70-8a0d-4c9f74089d83")
+		)
+		(pin "20"
+			(uuid "a9fbf3c8-7b7f-4461-b4bb-c10a6618c35f")
+		)
+		(pin "6"
+			(uuid "7e2047f6-b662-497d-9fbe-8e01ec94bbcc")
+		)
+		(pin "28"
+			(uuid "8e77337e-29d7-4d9a-8e54-2bf50d5c1457")
+		)
+		(pin "4"
+			(uuid "0c346ba0-dcce-44c0-bbd8-475bb639b08b")
+		)
+		(pin "16"
+			(uuid "6681d63a-05a3-4239-8d5c-dc1901ba44b2")
+		)
+		(pin "23"
+			(uuid "c292bee9-1d24-4214-b486-5a29ffcb649a")
+		)
+		(pin "14"
+			(uuid "a5b01fc6-6bd6-4193-af86-5e7aba791df9")
+		)
+		(pin "12"
+			(uuid "2f1e304e-aeef-49ac-aceb-b9bfbfc2fc04")
+		)
+		(pin "15"
+			(uuid "3865b58f-b92e-4e20-9029-8a65a34f7a5b")
+		)
+		(pin "3"
+			(uuid "b5bcc84c-1919-49c0-ba74-ca951f4915d1")
+		)
+		(pin "30"
+			(uuid "5fdd9413-b90d-4fd1-ad07-7c0f72756447")
+		)
+		(pin "27"
+			(uuid "28a2c076-798d-4da7-96c8-8c4cc7e0de41")
+		)
+		(pin "25"
+			(uuid "a0208de8-2239-4b57-81f9-bbdacb2716bb")
+		)
+		(pin "8"
+			(uuid "c77bc18f-ef72-4e9f-9c7f-bfe53b078af1")
+		)
+		(pin "5"
+			(uuid "55e93155-5f25-4c7e-aed3-786ba0f11774")
+		)
+		(pin "18"
+			(uuid "2d76a8d9-c7b3-4593-8470-8febe8e72e94")
+		)
+		(pin "7"
+			(uuid "786a68a7-91e2-4537-a316-b2a731683aeb")
+		)
+		(pin "11"
+			(uuid "ad3c4500-400f-441c-8a08-4578538e4471")
+		)
+		(pin "21"
+			(uuid "daff03f6-587c-495f-aa3a-e5516f6f300c")
+		)
+		(pin "1"
+			(uuid "9f0d2fda-f309-47d1-834a-0d134ad3d494")
+		)
+		(pin "10"
+			(uuid "12fce3cd-f1fe-4b83-b04f-cf09e176f59e")
+		)
+		(instances
+			(project "SolenoidEngine4"
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/0f3a443d-d2b6-4eba-9bb3-de7213a95505"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stlink-v3mods:STLINK-V3MODS")
+		(at 149.86 127 270)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27409318-90d6-45d6-8818-44cc90a7e6a6")
+		(property "Reference" "U1"
+			(at 158.75 125.7299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STLINK-V3MODS"
+			(at 158.75 128.2699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:STLINK_V3MODS"
+			(at 149.86 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "1"
+			(at 149.86 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 149.86 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "ST Microelectronics"
+			(at 149.86 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "7676fff5-ea80-4cbf-8941-627a3aaa879b")
+		)
+		(pin "29"
+			(uuid "f027ec97-e762-4bec-9af8-d256de17e19d")
+		)
+		(pin "9"
+			(uuid "0ec0a877-2125-423e-a84d-4b68c993dde2")
+		)
+		(pin "31"
+			(uuid "dea09039-dc0f-4373-a221-5ceb70b77925")
+		)
+		(pin "26"
+			(uuid "80ad812e-377b-41da-8b06-a797c745c192")
+		)
+		(pin "22"
+			(uuid "1fff2659-ddd7-4344-9573-1a433721198f")
+		)
+		(pin "24"
+			(uuid "7296a53c-9c6f-4c2d-8587-3254bbea3c98")
+		)
+		(pin "32"
+			(uuid "a12cfebe-8504-4c13-afe7-f49df19ad568")
+		)
+		(pin "17"
+			(uuid "245fccb5-8730-4121-9506-38b93d9528c3")
+		)
+		(pin "19"
+			(uuid "36552821-5be9-4d94-bd1c-c5252bd7fa7b")
+		)
+		(pin "13"
+			(uuid "40e6ac85-0373-4f70-8a0d-4c9f74089d83")
+		)
+		(pin "20"
+			(uuid "a9fbf3c8-7b7f-4461-b4bb-c10a6618c35f")
+		)
+		(pin "6"
+			(uuid "7e2047f6-b662-497d-9fbe-8e01ec94bbcc")
+		)
+		(pin "28"
+			(uuid "8e77337e-29d7-4d9a-8e54-2bf50d5c1457")
+		)
+		(pin "4"
+			(uuid "0c346ba0-dcce-44c0-bbd8-475bb639b08b")
+		)
+		(pin "16"
+			(uuid "6681d63a-05a3-4239-8d5c-dc1901ba44b2")
+		)
+		(pin "23"
+			(uuid "c292bee9-1d24-4214-b486-5a29ffcb649a")
+		)
+		(pin "14"
+			(uuid "a5b01fc6-6bd6-4193-af86-5e7aba791df9")
+		)
+		(pin "12"
+			(uuid "2f1e304e-aeef-49ac-aceb-b9bfbfc2fc04")
+		)
+		(pin "15"
+			(uuid "3865b58f-b92e-4e20-9029-8a65a34f7a5b")
+		)
+		(pin "3"
+			(uuid "b5bcc84c-1919-49c0-ba74-ca951f4915d1")
+		)
+		(pin "30"
+			(uuid "5fdd9413-b90d-4fd1-ad07-7c0f72756447")
+		)
+		(pin "27"
+			(uuid "28a2c076-798d-4da7-96c8-8c4cc7e0de41")
+		)
+		(pin "25"
+			(uuid "a0208de8-2239-4b57-81f9-bbdacb2716bb")
+		)
+		(pin "8"
+			(uuid "c77bc18f-ef72-4e9f-9c7f-bfe53b078af1")
+		)
+		(pin "5"
+			(uuid "55e93155-5f25-4c7e-aed3-786ba0f11774")
+		)
+		(pin "18"
+			(uuid "2d76a8d9-c7b3-4593-8470-8febe8e72e94")
+		)
+		(pin "7"
+			(uuid "786a68a7-91e2-4537-a316-b2a731683aeb")
+		)
+		(pin "11"
+			(uuid "ad3c4500-400f-441c-8a08-4578538e4471")
+		)
+		(pin "21"
+			(uuid "daff03f6-587c-495f-aa3a-e5516f6f300c")
+		)
+		(pin "1"
+			(uuid "9f0d2fda-f309-47d1-834a-0d134ad3d494")
+		)
+		(pin "10"
+			(uuid "12fce3cd-f1fe-4b83-b04f-cf09e176f59e")
+		)
+		(instances
+			(project "SolenoidEngine4"
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/0f3a443d-d2b6-4eba-9bb3-de7213a95505"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 148.59 149.86 0)
 		(unit 1)
@@ -1385,215 +1801,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AMS_26_Symbols:STLINK-V3MODS")
-		(at 149.86 127 270)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6493134e-d004-4d38-92fc-83338d3ff628")
-		(property "Reference" "U41"
-			(at 158.75 125.7299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STLINK-V3MODS"
-			(at 158.75 128.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AMS_26_Footprints:STLINK_V3MODS"
-			(at 149.86 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "1"
-			(at 149.86 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 149.86 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "ST Microelectronics"
-			(at 149.86 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "14"
-			(uuid "61d27d21-f659-4c31-84a2-646d6e74df6c")
-		)
-		(pin "15"
-			(uuid "0f53e8fa-5117-405a-aa91-48882c689a1c")
-		)
-		(pin "16"
-			(uuid "fe76a36b-d32d-464a-92e1-aec87f865231")
-		)
-		(pin "17"
-			(uuid "6c140b32-4c03-4be1-b3c9-2c7fe87121cd")
-		)
-		(pin "2"
-			(uuid "9edd6233-7194-47a8-ab0c-418e8fca206e")
-		)
-		(pin "18"
-			(uuid "cad1ba3e-b30a-44f3-b84f-69b51e765713")
-		)
-		(pin "20"
-			(uuid "524eb7a5-3228-45e5-a686-a63bd8954591")
-		)
-		(pin "23"
-			(uuid "15442667-8458-4c87-9b88-1499e91e8392")
-		)
-		(pin "21"
-			(uuid "8ae72288-7e0b-44ba-a23b-08b7eb505f9f")
-		)
-		(pin "3"
-			(uuid "52b7f93d-938d-4a51-8163-a91021b76ce0")
-		)
-		(pin "10"
-			(uuid "8c99e8b4-8b35-4d2a-9858-dbfb43681261")
-		)
-		(pin "1"
-			(uuid "49c8a55c-5267-412d-ab47-8c90934094e5")
-		)
-		(pin "12"
-			(uuid "74cb13c4-dcae-4112-b7e8-42f3884fabb7")
-		)
-		(pin "30"
-			(uuid "e1bdcc15-454a-4909-851a-b425825f2658")
-		)
-		(pin "31"
-			(uuid "1b47213c-45aa-437a-a56d-55e104ecb491")
-		)
-		(pin "32"
-			(uuid "27954594-c2fa-47aa-9885-8a7ca17efd91")
-		)
-		(pin "6"
-			(uuid "7b25e116-3b60-4a32-9a7b-e1f47fbc167f")
-		)
-		(pin "11"
-			(uuid "9e0bb168-d753-42f0-a66f-299d0b96a440")
-		)
-		(pin "25"
-			(uuid "a16e3508-adc1-4af1-b776-288c94807d1f")
-		)
-		(pin "19"
-			(uuid "93f58099-2436-48f9-9687-b23b82c36f18")
-		)
-		(pin "4"
-			(uuid "ff072a03-8a0a-42d7-b2bb-6217638c4286")
-		)
-		(pin "7"
-			(uuid "5440f3fd-5c5c-4be0-8dab-292a37350347")
-		)
-		(pin "28"
-			(uuid "e764ffc2-71a6-40bf-8c8f-c5347d8ef1d3")
-		)
-		(pin "13"
-			(uuid "47de8ba5-c600-47b0-a128-e81ce4694d10")
-		)
-		(pin "22"
-			(uuid "a64bb41a-36cd-452e-91e0-9dcb09f04597")
-		)
-		(pin "9"
-			(uuid "6e93d697-8b4a-430c-814d-affaecb12ecf")
-		)
-		(pin "29"
-			(uuid "80ca42b9-1df7-4c55-bfd8-2b96a20050df")
-		)
-		(pin "5"
-			(uuid "878e630c-fb20-4e10-9544-b85b13039bed")
-		)
-		(pin "24"
-			(uuid "dd78bb0e-97f5-478f-b332-0589728bf0f6")
-		)
-		(pin "8"
-			(uuid "15ef89cc-f944-4f5d-82e8-9d7c6628fb1a")
-		)
-		(pin "26"
-			(uuid "871dad2d-d21d-4896-aea9-bc8df4b79669")
-		)
-		(pin "27"
-			(uuid "f7756f00-8ae7-4f2d-9860-b2a52f1ff2ad")
-		)
-		(instances
-			(project "SolenoidEngine4"
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/0f3a443d-d2b6-4eba-9bb3-de7213a95505"
-					(reference "U41")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 101.6 106.68 0)
 		(unit 1)
@@ -1666,213 +1873,6 @@
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/0f3a443d-d2b6-4eba-9bb3-de7213a95505"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AMS_26_Symbols:STLINK-V3MODS")
-		(at 149.86 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0e5839e-5f97-4f0c-a88e-879c6ed3a5eb")
-		(property "Reference" "U41"
-			(at 149.86 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "STLINK-V3MODS"
-			(at 149.86 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AMS_26_Footprints:STLINK_V3MODS"
-			(at 149.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "1"
-			(at 149.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 149.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "ST Microelectronics"
-			(at 149.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "14"
-			(uuid "8711d9f6-1ae6-4d7d-906c-d6e63f18f8d3")
-		)
-		(pin "15"
-			(uuid "f4015983-cd0f-4da6-bbba-022ba1d1e8b8")
-		)
-		(pin "16"
-			(uuid "82bf7f7d-87a6-4c33-b488-03ac3a6f456a")
-		)
-		(pin "17"
-			(uuid "7705546f-5e3a-475f-8e0f-726291fa50fe")
-		)
-		(pin "2"
-			(uuid "12e966a7-8b89-4709-b424-36d6dc0781b3")
-		)
-		(pin "18"
-			(uuid "be246967-1d5c-4fd6-b613-6cee6ffc8334")
-		)
-		(pin "20"
-			(uuid "12701567-e187-479b-a218-71546dce198e")
-		)
-		(pin "23"
-			(uuid "0a1183b8-f4b9-4118-a1e6-b9abb9201400")
-		)
-		(pin "21"
-			(uuid "c97d94ad-1210-4fd7-9cbb-37863033dc55")
-		)
-		(pin "3"
-			(uuid "b1687cf7-b6ee-4a60-8a1c-4f594286655e")
-		)
-		(pin "10"
-			(uuid "77fec435-e803-4f19-a4af-3d99cab3fef6")
-		)
-		(pin "1"
-			(uuid "3950b27d-038e-4ea8-884a-800441b70f98")
-		)
-		(pin "12"
-			(uuid "d435cbd5-70c9-402c-bdb0-cd194b6af026")
-		)
-		(pin "30"
-			(uuid "c1e91a3e-6320-4b68-b596-3088338422e3")
-		)
-		(pin "31"
-			(uuid "cea1fd5f-5b87-4d90-a4fc-bd6163d9061b")
-		)
-		(pin "32"
-			(uuid "2f44634c-7b33-4263-a7f4-b9f5edc670bb")
-		)
-		(pin "6"
-			(uuid "eb9920f9-21d9-494d-a022-4127c5585a04")
-		)
-		(pin "11"
-			(uuid "1af04ec2-4a42-4b06-8b1f-0f9bfd7a087f")
-		)
-		(pin "25"
-			(uuid "202f286a-bfae-4b7a-95b5-46e15095bc86")
-		)
-		(pin "19"
-			(uuid "648cb85f-954c-419d-aeb4-7e82797b41f2")
-		)
-		(pin "4"
-			(uuid "1cd1d41d-49b6-448e-bc9f-3eb5835de2d0")
-		)
-		(pin "7"
-			(uuid "93fcb138-14f3-47e3-8389-020fc92648e8")
-		)
-		(pin "28"
-			(uuid "eeae9341-22e6-47b1-88d6-3fd4dc4eddfd")
-		)
-		(pin "13"
-			(uuid "d6703fdc-3b59-40b3-805b-8a169ad92392")
-		)
-		(pin "22"
-			(uuid "1246ecbd-5c5f-4923-ae2a-8d102e43f99f")
-		)
-		(pin "9"
-			(uuid "a6b53b07-b8ad-437d-94da-81aae7befa4d")
-		)
-		(pin "29"
-			(uuid "e609da7a-008a-4f3e-b40a-9b140f4659bc")
-		)
-		(pin "5"
-			(uuid "0d6ff872-31d8-4f41-8bbc-a8c272881016")
-		)
-		(pin "24"
-			(uuid "f367d0fa-9749-4b82-9d76-4a3c59640a49")
-		)
-		(pin "8"
-			(uuid "0e68108b-f213-47cb-9a87-a6b591e118ff")
-		)
-		(pin "26"
-			(uuid "d5dcad90-9bf3-4581-9207-386b924cbc6a")
-		)
-		(pin "27"
-			(uuid "354d3e12-31fb-463d-ab82-3e93ad54f935")
-		)
-		(instances
-			(project "SolenoidEngine4"
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/0f3a443d-d2b6-4eba-9bb3-de7213a95505"
-					(reference "U41")
 					(unit 1)
 				)
 			)

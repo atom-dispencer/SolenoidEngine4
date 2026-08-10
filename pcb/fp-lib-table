@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "Adafruit_HUSB238") (type "KiCad") (uri "${KIPRJMOD}/Adafruit_HUSB238.pretty") (options "") (descr ""))
 	(lib (name "SolenoidEngine4") (type "KiCad") (uri "${KIPRJMOD}/SolenoidEngine4.pretty") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/lib/footprints") (options "") (descr ""))
 )

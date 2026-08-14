@@ -3191,88 +3191,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 153.67 44.45 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "36e664aa-0660-4743-8043-2c923281856a")
-		(property "Reference" "C117"
-			(at 149.86 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220u"
-			(at 149.86 45.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 152.7048 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 153.67 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "52ea10c5-686e-4cbb-91f8-a1a17c85630f")
-		)
-		(pin "1"
-			(uuid "c0585444-28b7-43a0-af8f-ea13801bc3d3")
-		)
-		(instances
-			(project "SolenoidEngine4"
-				(path "/8f70d105-0009-40db-8e47-cace6f06f216/7c0cdd10-19ae-416b-88d1-d044c467c56f"
-					(reference "C117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 54.61 38.1 0)
 		(unit 1)
@@ -4121,6 +4039,98 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 153.67 44.45 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d0a666c-7bee-41b4-b001-66088beaea9a")
+		(property "Reference" "C117"
+			(at 149.86 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220u"
+			(at 149.86 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
+			(at 152.7048 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28395/150crz.pdf"
+			(at 153.67 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Electrolytic"
+			(at 147.828 40.894 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 153.67 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1629ae3c-1efe-438d-8dfd-97da83aeff79")
+		)
+		(pin "2"
+			(uuid "5ca7552e-06c7-4d4b-8bba-3bf3270fbd34")
+		)
+		(instances
+			(project "SolenoidEngine4"
+				(path "/8f70d105-0009-40db-8e47-cace6f06f216/7c0cdd10-19ae-416b-88d1-d044c467c56f"
+					(reference "C117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 50.8 127 0)
 		(mirror y)
 		(unit 1)
@@ -4131,7 +4141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7038cee3-772d-4e10-b567-ecbfb079feb1")
-		(property "Reference" "100n1"
+		(property "Reference" "C5"
 			(at 46.99 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4142,7 +4152,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C5"
+		(property "Value" "100n"
 			(at 46.99 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4205,7 +4215,7 @@
 		(instances
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/7c0cdd10-19ae-416b-88d1-d044c467c56f"
-					(reference "100n1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5101,7 +5111,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c39fd12a-1f0a-46bb-903e-d4ddc868d6c4")
-		(property "Reference" "220u1"
+		(property "Reference" "C4"
 			(at 59.69 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5112,7 +5122,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C4"
+		(property "Value" "220u"
 			(at 59.69 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5175,7 +5185,7 @@
 		(instances
 			(project "SolenoidEngine4"
 				(path "/8f70d105-0009-40db-8e47-cace6f06f216/7c0cdd10-19ae-416b-88d1-d044c467c56f"
-					(reference "220u1")
+					(reference "C4")
 					(unit 1)
 				)
 			)

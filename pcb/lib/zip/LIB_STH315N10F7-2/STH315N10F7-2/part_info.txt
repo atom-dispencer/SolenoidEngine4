@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STH315N10F7-2
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Other
+PinCount=3
+Version=3.3
+Released=2019-10-16 11:05:18
+Downloaded=2026-08-14 21:27:30
+3D=Y

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "STH315N10F72"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "STH315N10F72")
+        (spec "default")
+    )
+)

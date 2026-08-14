@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STH315N10F7-2
+D Automotive-grade N-channel 100 V, 2.1 m typ., 180 A STripFET F7 Power MOSFETs in an HPAK2 and HPAK6 packages
+K
+F https://www.st.com/resource/en/datasheet/sth315n10f7-2.pdf
+$ENDCMP
+#
+#End Doc Library

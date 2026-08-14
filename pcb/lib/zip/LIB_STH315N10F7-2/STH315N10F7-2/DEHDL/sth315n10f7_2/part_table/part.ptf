@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STH315N10F7_2'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STH315N10F7-2" (!) = "", "STH315N10F72", "Other", "511-STH315N10F7-2", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STH315N10F7-2?qs=DqCdCwOw4%2F6biN%2FHDRW73g%3D%3D", "Automotive-grade N-channel 100 V, 2.1 m typ., 180 A STripFET F7 Power MOSFETs in an HPAK2 and HPAK6 packages", "https://www.st.com/resource/en/datasheet/sth315n10f7-2.pdf", "4.9 mm"
+END_PART
+
+END.

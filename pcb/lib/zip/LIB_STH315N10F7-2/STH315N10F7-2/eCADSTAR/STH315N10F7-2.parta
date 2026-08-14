@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_982458"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-16-11:05:18)
+    (utime 2026-01-08-14:31:13)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "STH315N10F7-2")
+)
+
+
+(pinAssign "ECS_982458"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-16-11:05:18)
+    (utime 2026-01-08-14:31:13)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_982458")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "STH315N10F7-2")
+)
+
+
+(part "STH315N10F7-2"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-16-11:05:18)
+    (utime 2026-01-08-14:31:13)
+    (packageRef "STH315N10F7-2")
+    (pinAssignRef "ECS_982458")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "Automotive-grade N-channel 100 V, 2.1 m typ., 180 A STripFET F7 Power MOSFETs in an HPAK2 and HPAK6 packages")
+    (property "Mouser_Part_Number" "511-STH315N10F7-2")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STH315N10F7-2?qs=DqCdCwOw4%2F6biN%2FHDRW73g%3D%3D")
+    (property "Manufacturer_Name" "STMicroelectronics")
+    (property "Manufacturer_Part_Number" "STH315N10F7-2")
+    (property "Datasheet_Link" "https://www.st.com/resource/en/datasheet/sth315n10f7-2.pdf")
+    (property "compAreaTopHeight" 4.9)
+)
+
+

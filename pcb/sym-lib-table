@@ -7,4 +7,5 @@
 	(lib (name "CSD18542KCS") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/CSD18542KCS.kicad_sym") (options "") (descr ""))
 	(lib (name "stlink-v3mods") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/stlink-v3mods.kicad_sym") (options "") (descr ""))
 	(lib (name "SMC30J18A") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/SMC30J18A.kicad_sym") (options "") (descr ""))
+	(lib (name "STH315N10F7-2") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/STH315N10F7-2.kicad_sym") (options "") (descr ""))
 )

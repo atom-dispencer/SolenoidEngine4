@@ -1309,15 +1309,15 @@
 			(uuid "e054110e-f0d9-4337-88ee-171b08da4f9d")
 		)
 		(embedded_fonts no)
-		(model "STH315N10F7-2.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/STH315N10F7-2.stp"
 			(offset
-				(xyz 0 6.519999883 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -2215,15 +2215,15 @@
 			(uuid "21e1c434-2662-4792-ac1c-27158ec66088")
 		)
 		(embedded_fonts no)
-		(model "STH315N10F7-2.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/STH315N10F7-2.stp"
 			(offset
-				(xyz 0 6.519999883 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -7995,7 +7995,7 @@
 			(uuid "a92cef1a-ce53-41ae-95a9-c1262efbed62")
 		)
 		(embedded_fonts no)
-		(model "SMC30J18A.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/SMC30J18A.stp"
 			(offset
 				(xyz 0 0 1.230000001)
 			)
@@ -8641,7 +8641,7 @@
 			(uuid "a9f6f3b4-f26a-463b-a390-47e9b81e007c")
 		)
 		(embedded_fonts no)
-		(model "SMC30J18A.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/SMC30J18A.stp"
 			(offset
 				(xyz 0 0 1.230000001)
 			)
@@ -11073,15 +11073,15 @@
 			(uuid "b7db0e19-f501-42b3-bc26-565710423050")
 		)
 		(embedded_fonts no)
-		(model "STH315N10F7-2.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/STH315N10F7-2.stp"
 			(offset
-				(xyz 0 6.519999883 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -13726,15 +13726,15 @@
 			(uuid "2e3534de-1eb9-4d4d-8d85-e66bb995eff7")
 		)
 		(embedded_fonts no)
-		(model "STH315N10F7-2.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/STH315N10F7-2.stp"
 			(offset
-				(xyz 0 6.519999883 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -15852,7 +15852,7 @@
 			(uuid "e3331e71-d682-4444-b6e9-85a0a31e313f")
 		)
 		(embedded_fonts no)
-		(model "SMC30J18A.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/SMC30J18A.stp"
 			(offset
 				(xyz 0 0 1.230000001)
 			)
@@ -22395,7 +22395,7 @@
 		(property "Reference" "Q2"
 			(at 0 1.58 0)
 			(layer "F.SilkS")
-			(uuid "64cbb967-f06e-4d03-9415-ce016cfa3f06")
+			(uuid "9f6f641f-97e4-4206-befe-fb329569f656")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22407,7 +22407,7 @@
 			(at 0 1.58 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3438da57-37a7-48fb-9c4c-3d1304458c21")
+			(uuid "c9cd9323-6279-4cac-9c43-8c816acb18d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22419,7 +22419,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "708d7b2a-e7a0-4e7c-ae99-cf96c4597f09")
+			(uuid "78e4dd30-f400-4052-a27c-61537cc5481c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22430,7 +22430,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f82f94fe-a291-407a-a57a-2ca192a39290")
+			(uuid "eb11a84e-f370-4a46-b66b-292ec5cc6877")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22704,15 +22704,15 @@
 			(uuid "47ca8a48-04ed-4f73-865d-ebb73d0ae506")
 		)
 		(embedded_fonts no)
-		(model "STH315N10F7-2.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/STH315N10F7-2.stp"
 			(offset
-				(xyz 0 6.519999883 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -24475,7 +24475,7 @@
 			(uuid "974969f0-05bb-4b3c-b714-c011775209a4")
 		)
 		(embedded_fonts no)
-		(model "SMC30J18A.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/SMC30J18A.stp"
 			(offset
 				(xyz 0 0 1.230000001)
 			)
@@ -25465,7 +25465,7 @@
 			(uuid "c25b8ad9-1ba2-4104-8fdd-c2cf601384c0")
 		)
 		(embedded_fonts no)
-		(model "TB005-762-02BE.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/TB005-762-02BE.stp"
 			(offset
 				(xyz 7.550000077 -7.899999977 0)
 			)
@@ -26040,8 +26040,8 @@
 			)
 		)
 	)
-	(gr_text "SOL+"
-		(at 115 150 0)
+	(gr_text "SOL2+"
+		(at 114 150 0)
 		(layer "F.SilkS" knockout)
 		(uuid "0820ab66-a60d-48f6-b460-c7f411fbbfff")
 		(effects
@@ -26052,8 +26052,8 @@
 			)
 		)
 	)
-	(gr_text "SL2-"
-		(at 125 150 0)
+	(gr_text "SOL2-"
+		(at 126 150 0)
 		(layer "F.SilkS" knockout)
 		(uuid "a3e83696-ac19-40fc-b833-83c8fbce0fe1")
 		(effects
@@ -26064,8 +26064,8 @@
 			)
 		)
 	)
-	(gr_text "SOL+"
-		(at 175 150 0)
+	(gr_text "SOL4+"
+		(at 174 150 0)
 		(layer "F.SilkS" knockout)
 		(uuid "8428958d-3812-4090-b122-b180ff85df46")
 		(effects
@@ -26076,8 +26076,8 @@
 			)
 		)
 	)
-	(gr_text "SL4-"
-		(at 185 150 0)
+	(gr_text "SOL4-"
+		(at 186 150 0)
 		(layer "F.SilkS" knockout)
 		(uuid "05bd09c5-22d6-4efd-9fdc-3160f358e1e4")
 		(effects
@@ -26160,8 +26160,8 @@
 			)
 		)
 	)
-	(gr_text "SL1-"
-		(at 95 40 180)
+	(gr_text "SOL1-"
+		(at 94 40 180)
 		(layer "F.SilkS" knockout)
 		(uuid "d55567c4-268d-4999-9f4e-47db7ae9c739")
 		(effects
@@ -26172,8 +26172,8 @@
 			)
 		)
 	)
-	(gr_text "SOL+"
-		(at 105 40 180)
+	(gr_text "SOL1+"
+		(at 106 40 180)
 		(layer "F.SilkS" knockout)
 		(uuid "cf631f96-b74b-4bfa-b76f-5dc99627bd9c")
 		(effects
@@ -26184,8 +26184,8 @@
 			)
 		)
 	)
-	(gr_text "SL3-"
-		(at 155 40 180)
+	(gr_text "SOL3-"
+		(at 154 40 180)
 		(layer "F.SilkS" knockout)
 		(uuid "a72a03a4-72ce-4ea2-b5f5-37e24e26a196")
 		(effects
@@ -26196,8 +26196,8 @@
 			)
 		)
 	)
-	(gr_text "SOL+"
-		(at 165 40 180)
+	(gr_text "SOL3+"
+		(at 166 40 180)
 		(layer "F.SilkS" knockout)
 		(uuid "4940855b-aede-4269-a787-e3d59aaf1c97")
 		(effects
@@ -26230,6 +26230,31 @@
 				(thickness 0.375)
 				(bold yes)
 			)
+		)
+	)
+	(gr_text "Solenoid Engine #4\nAdam Spencer @ atom-dispencer\nOpen-Source on GitHub"
+		(at 140 93 0)
+		(layer "F.SilkS")
+		(uuid "2d37657e-8aa2-4f62-b87f-0063d3197128")
+		(effects
+			(font
+				(size 3 2.1)
+				(thickness 0.525)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "Only took me 3 years..."
+		(at 140 93 0)
+		(layer "B.SilkS")
+		(uuid "debed8ff-62bc-41bc-95b8-5ed0dd62eeef")
+		(effects
+			(font
+				(size 3 2.1)
+				(thickness 0.525)
+				(bold yes)
+			)
+			(justify mirror)
 		)
 	)
 	(segment

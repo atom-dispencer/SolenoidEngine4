@@ -5,6 +5,7 @@
 
 #include <stdbool.h>
 #include <assert.h>
+#include <math.h>
 
 #include "SolenoidEngine4.h"
 #include "MA730.h"
@@ -120,10 +121,12 @@ void calibrate_engine()
 {
     unsigned int revolutions = 2;
     unsigned int repeats = 100;
+    unsigned int repeat_ms = 2;
 
     //
     // Collect & sum the calibration samples
     //
+    for (int k = 0; k < SOLENOID_COUNT; ++k) SE4.calibration[k] = 0.0f;
 
     for (int i = 0; i < revolutions * SOLENOID_COUNT; i++)
     {
@@ -132,14 +135,19 @@ void calibrate_engine()
         const struct Solenoid* s = &SOLENOIDS[i % SOLENOID_COUNT];
         energise_solenoid(s, true);
 
-        HAL_Delay(1000);
+        HAL_Delay(5000);
 
         for (int j = 0; j < repeats; j++)
         {
             float cal = 0.0f;
             ma730_read_angle(&RESOLVER, &cal);
-            SE4.calibration[i] += cal;
-            HAL_Delay(2);
+
+            // normalize calibration reading to [0,360)
+            cal = fmodf(cal, 360.0f);
+            if (cal < 0.0f) cal += 360.0f;
+
+            SE4.calibration[i % SOLENOID_COUNT] += cal;
+            HAL_Delay(repeat_ms);
         }
     }
 
@@ -192,8 +200,21 @@ void tick_engine()
     float deg = 0.0f;
     ma730_read_angle(&RESOLVER, &deg);
 
+    // normalize resolver reading to [0,360)
+    deg = fmodf(deg, 360.0f);
+    if (deg < 0.0f) deg += 360.0f;
+
     static float deg_measurements[D_DEG_WINDOW] = { 0 };
     static int deg_measurement_index = 0;
+    static bool deg_buffer_initialized = false;
+
+    if (!deg_buffer_initialized)
+    {
+        for (int k = 0; k < D_DEG_WINDOW; ++k) deg_measurements[k] = deg;
+        deg_buffer_initialized = true;
+        deg_measurement_index = 0;
+    }
+
     deg_measurements[deg_measurement_index] = deg;
     deg_measurement_index = (deg_measurement_index + 1) % D_DEG_WINDOW;
 
@@ -233,20 +254,19 @@ void tick_engine()
     {
         assert("Invalid Solenoid Index" && IS_VALID_SOLENOID_INDEX(i));
 
-        struct Solenoid* s = &SOLENOIDS[i];
+        const struct Solenoid* s = &SOLENOIDS[i];
 
         // Predicted angle relative to this solenoid's closest point (calibration = TDC),
-        // normalised to [-180, 180].
-        float rel = deg_predicted - SE4.calibration[i];
-        if (rel >  180.0f) rel -= 360.0f;
-        if (rel < -180.0f) rel += 360.0f;
+        // remapped to [0, 360).
+        float rel = fmodf(deg_predicted - SE4.calibration[i], 360.0f);
+        if (rel < 0.0f) rel += 360.0f;
 
         // Energise only when the conrod is approaching and pull is effective.
         // SPIN_POSITIVE: conrod approaches through rel [-180, 0]; window = [-(180-lead), -lead]
         // SPIN_NEGATIVE: conrod approaches through rel [+180, 0]; window = [+lead, +(180-lead)]
         bool energise = false;
         if (spin == SPIN_POSITIVE)
-            energise = (rel > -(180.0f - D_DEG_LEAD)) && (rel < -(float)D_DEG_LEAD);
+            energise = (rel > (180.0f + D_DEG_LEAD)) && (rel < (360.0f - D_DEG_LEAD));
         else if (spin == SPIN_NEGATIVE)
             energise = (rel > (float)D_DEG_LEAD) && (rel < (180.0f - D_DEG_LEAD));
 
@@ -268,7 +288,20 @@ void tick_engine()
         if (fraction < 0.0f) fraction = 0.0f;
         if (fraction > 1.0f) fraction = 1.0f;
         SE4.throttle_fraction = fraction;
-        set_sol_pwm_duty_cycle(SE4.throttle_fraction);
+
+        // Solenoid force is approximately proportional to current squared:
+        //   F ∝ I²
+        // Assuming coil current is proportional to PWM duty cycle:
+        //   F ∝ duty²
+        // To linearise, substitute:
+        //   duty^2 = u
+        // Giving:
+        //   duty = sqrt(u)
+        // Hence force is linear in u:
+        //   F = k * u
+
+        float normalised_duty = sqrtf(SE4.throttle_fraction);
+        set_sol_pwm_duty_cycle(normalised_duty);
     }
 }
 
